@@ -4,3 +4,4 @@
 - [CSS居中初级理解](https://github.com/XXHolic/blog/issues/3)
 - [CSS不定高宽度元素水平垂直居中](https://github.com/XXHolic/blog/issues/4)
 - [《黑客和画家》—不能说的话](https://github.com/XXHolic/blog/issues/5)
+- [CSS形状初级理解](https://github.com/XXHolic/blog/issues/6)
