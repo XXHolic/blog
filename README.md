@@ -6,3 +6,4 @@
 - [《黑客和画家》—不能说的话](https://github.com/XXHolic/blog/issues/5)
 - [CSS形状初级理解](https://github.com/XXHolic/blog/issues/6)
 - [CSS常见形状实现思路](https://github.com/XXHolic/blog/issues/7)
+- [看书时感兴趣的一些小点记录](https://github.com/XXHolic/blog/issues/8)
