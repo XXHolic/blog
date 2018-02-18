@@ -8,3 +8,4 @@
 - [CSS常见形状实现思路](https://github.com/XXHolic/blog/issues/7)
 - [看书时感兴趣的一些小点记录](https://github.com/XXHolic/blog/issues/8)
 - [CSS浮动float相关初解](https://github.com/XXHolic/blog/issues/9)
+- [Web API初接触](https://github.com/XXHolic/blog/issues/10)
