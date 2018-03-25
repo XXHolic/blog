@@ -1,5 +1,5 @@
 # blog
-- [优雅的说“不”](https://github.com/XXHolic/blog/issues/12g)
+- [优雅的说“不”](https://github.com/XXHolic/blog/issues/12)
 - [屏幕尺寸、像素、分辨率和devicePixelRatio](https://github.com/XXHolic/blog/issues/11)
 - [Web API初接触](https://github.com/XXHolic/blog/issues/10)
 - [CSS浮动float相关初解](https://github.com/XXHolic/blog/issues/9)
