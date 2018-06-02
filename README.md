@@ -1,4 +1,5 @@
 # blog
+- [JavaScript 事件](https://github.com/XXHolic/blog/issues/14)
 - [关于 display: inline-block 产生的间隙](https://github.com/XXHolic/blog/issues/13)
 - [优雅的说“不”](https://github.com/XXHolic/blog/issues/12)
 - [屏幕尺寸、像素、分辨率和 devicePixelRatio](https://github.com/XXHolic/blog/issues/11)
