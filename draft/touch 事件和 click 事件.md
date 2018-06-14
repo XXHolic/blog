@@ -28,6 +28,7 @@
 属性可用于所有 HTML 元素，除了： <base>, <bdo>, <br>, <head>, <html>, <iframe>, <meta>, <param>, <script>, <style>, 和 <title>.
 ## PC端事件触发
 ### 不点击的情况下
+html说是不支持，试了一下还是支持的。
 首先要说明一下
 
 ## 参考资料
