@@ -33,3 +33,4 @@ html说是不支持，试了一下还是支持的。
 
 ## 参考资料
 - [MDN Touch](https://developer.mozilla.org/en-US/docs/Web/API/Touch)
+- [Global-attributes](https://www.w3.org/TR/2017/REC-html52-20171214/dom.html#global-attributes)
