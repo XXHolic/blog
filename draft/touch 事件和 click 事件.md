@@ -1,23 +1,24 @@
-# touch 事件和 click 事件
+# Mouse Events & Touch Events
 ## 场景
 在探索了Javascript 事件之后，紧接着就对移动端的点击事件进行了解。由于点击延迟 300 毫秒，除了各厂商给出的解决方案，在程序方面也有对应的解决方案，于是选取了几种进行对比查看。在查看源码的过程中，发现了关于事件执行顺序的问题：在touchstart事件中打断点，接下来的额事件就不执行了，不打断点就正常执行。由此开始对事件的执行顺序进行进一步的探索。
 
-## 鼠标事件和 touch 事件
-### 常用鼠标事件
-- onclick
-- ondblclick
-- onmousedown
-- **onmouseenter**
-- **onmouseleave**
-- onmousemove
-- onmouseover
-- onmouseout
-- onmouseup
+## Mouse Events 和 Touch Events
+### Mouse Events (鼠标事件)
+常用的鼠标事件如下：
+- click
+- dblclick
+- mousedown
+- **mouseenter**
+- **mouseleave**
+- mousemove
+- mouseover
+- mouseout
+- mouseup
 
 对于这些有几点说明：
-1. onmouseenter 事件类似于 onmouseover 事件。 唯一的区别是 onmouseenter 事件不支持冒泡 。
-2. onmouseleave 事件类似于 onmouseout 事件。 唯一的区别是 onmouseleave 事件不支持冒泡。
-3. 以上的事件属性可用于所有 HTML 元素，除了以下标签
+1. mouseenter 事件类似于 mouseover 事件。 唯一的区别是 mouseenter 事件不支持冒泡 。
+2. mouseleave 事件类似于 mouseout 事件。 唯一的区别是 mouseleave 事件不支持冒泡。
+3. 以上对应的 HTML 事件属性可用于所有 HTML 元素，除了以下标签
 ```html
 <base>、<bdo>、<br>、<head>、<html>、<iframe>、<meta>、<param>、<script>、<style>、<title>
 ```
@@ -26,26 +27,74 @@
 
 测试结果就是：html、base、bdo 支持 onclick 属性并有效。所以第3条的说法有问题，如果有使用需求，需要注意。
 
-### touch 事件
+### Touch Events (触摸事件)
+触摸事件如下：
+- touchstart
+- touchend
+- touchmove
+- touchcancel
+在规范里面找到了一张图，很清晰的说明了一些特性，如下图。
+
+![15-touchevent](./images/15/15-touchevent.png)
 
 ## 事件触发顺序
 以下的测试验证，是针对同一个元素的事件触发顺序。
 ### PC端
-**不点击的情况下**
+#### 不点击的情况下
+正常“移入 -> 离开”触发的顺序：
 
-触发的顺序：
+mouseover -> mouseenter -> mousemove -> mouseout -> mouseleave。
 
-onmouseover -> onmouseenter -> onmousemove -> onmouseout -> onmouseleave。
+![15-order1](./images/15/15-order1.png)
+
 测试页面在这里，手机端访问如下
 
-**点击的情况下**
-单击触发顺序：
+#### 点击的情况下
+正常“移入 -> 单击 -> 离开”触发顺序：
 
-**双击的情况下**
+mouseover -> mouseenter -> mousemove -> mousedown -> mouseup -> click -> mousemove -> mouseout -> mouseleave。
+
+![15-order2](./images/15/15-order2.png)
+
+#### 双击的情况下
+正常“移入 -> 双击 -> 离开”触发顺序：
+
+mouseover -> mouseenter -> mousemove -> mousedown -> mouseup -> click -> mousedown -> mouseup -> click -> dblclick -> mousemove -> mouseout -> mouseleave。
+
+![15-order3](./images/15/15-order3.png)
 
 ### 手机端
+#### 正常单击的情况
+如果上面所列的鼠标事件和触摸事件都绑定了，那么顺序就是这样的：
+
+IOS：
+
+touchstart -> touchend -> mouseover -> mouseenter -> mousemove。
+
+IOS 里面 click 事件没有触发，网上那么多写的什么触发了touchstart，事件流会继续下去，这是什么情况？在前面介绍触摸事件的时候，可以看到touchend后面对应的 Default Action 有 mousemove、 mousedown、 mouseup、click，猜测是只会按顺序触发其中的一种，不会都触发。
+
+发现在IOS里面如果绑定了 mousemove 事件，click事件就不会触发。
+
+Android:
+
+touchstart -> touchend -> mouseover -> mouseenter -> mousemove -> mousedown -> mouseup -> click。
+
+共同点：
+- mouseover第一点击的时候会触发，紧接着继续点击第二次的时候就不会触发。当点了该元素之外的区域，再次点击的时候，又会触发。换个说法，就是再次“获取焦点”的时候就会触发该事件。
+- 点击很快的时候，click可能会连续重复执行，而不是每次从touchstart开始。
+
+#### 快速双击的情况
+IOS：
+
+跟正常单击的情况一致
+
+Android:
+
+touchstart -> touchend -> mouseover -> mouseenter -> mousemove -> mousedown -> mouseup -> click -> touchstart -> touchend ->  mousemove -> mousedown -> mouseup -> click -> dblclick。
 
 
 ## 参考资料
-- [MDN Touch](https://developer.mozilla.org/en-US/docs/Web/API/Touch)
 - [Global-attributes](https://www.w3.org/TR/2017/REC-html52-20171214/dom.html#global-attributes)
+- [MDN Touch](https://developer.mozilla.org/en-US/docs/Web/API/Touch)
+- [touch-interface](https://www.w3.org/TR/touch-events/#touch-interface)
+- [dom events](https://dom.spec.whatwg.org/#introduction-to-dom-events)
