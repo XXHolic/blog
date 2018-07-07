@@ -1,4 +1,5 @@
 # blog
+- [Git Commit 规范参考](https://github.com/XXHolic/blog/issues/16)
 - [Mouse Events & Touch Events](https://github.com/XXHolic/blog/issues/15)
 - [JavaScript 事件](https://github.com/XXHolic/blog/issues/14)
 - [关于 display: inline-block 产生的间隙](https://github.com/XXHolic/blog/issues/13)
