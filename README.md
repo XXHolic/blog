@@ -2,6 +2,7 @@
 > 夫人之立言，因字而生句，积句而为章，积章而成篇。篇之彪炳，章无疵也；章之明靡，句无玷也；句之清英，字不妄也。
 > -《文心雕龙》刘勰
 
+- [JavaScript 语言提议的几个状态](https://github.com/XXHolic/blog/issues/26)
 - [Object.observe](https://github.com/XXHolic/blog/issues/25)
 - [超级微型编译器](https://github.com/XXHolic/blog/issues/24)
 - [Git 常用操作](https://github.com/XXHolic/blog/issues/23)
