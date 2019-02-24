@@ -1,4 +1,4 @@
-# <div align="right"><h1>简历</h1></div>
+# 简历
 ## 联系方式
 - 手机：18271902074
 - Email：allbecauseofyou@foxmail.com
