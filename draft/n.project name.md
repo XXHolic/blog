@@ -1,0 +1,14 @@
+# n.project name
+## 想法
+项目名称很重要，想着很麻烦，于是想到先定主题，再在主题里面找。
+
+## 希腊神话
+- Gaea(盖亚):最先出现的神，大地之神，众神之母。
+- Uranus(乌拉诺斯)：男，天空之神，天神，天父，是 Gaea 的丈夫。
+- Erebus(埃瑞波斯)：男，黑暗之神，与 Nyx 是情侣。
+- Nyx(尼克斯)：女，夜神，与 Erebus 是情侣。
+- Hemera(赫墨拉)：女，白昼女神，是 Erebus 与 Nyx 的孩子。
+- Aether(埃忒尔)：男，光明之神，是 Erebus 与 Nyx 的孩子，Hemera 的哥哥。
+
+## 参考资料
+- https://www.greekmythology.com/
