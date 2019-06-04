@@ -8,7 +8,7 @@
 ## liangzhu suggest
 ### 第一阶段
 基于 webpack 文档引导
-1. 让一个简单的 react 程序运行起来，根据错误的提示逐渐修正。
+1. 让一个简单的 react 程序运行起来，根据错误的提示逐渐修正。(done)
 2. import 等加载（异步和同步）文件的处理。
 2. 添加对 css（sass less postcss） 样式的支持。
 3. 对图片、svg 、装饰器的支持。
