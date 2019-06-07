@@ -13,5 +13,8 @@
   },
   "scripts": {
     "commitmsg": "commitlint -E GIT_PARAMS"
+  },
+  "dependencies": {
+    "js-yaml": "^3.13.1"
   }
 }
