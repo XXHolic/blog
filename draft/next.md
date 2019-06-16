@@ -9,12 +9,16 @@
 ### 第一阶段
 基于 webpack 文档引导
 1. 让一个简单的 react 程序运行起来，根据错误的提示逐渐修正。(done)
-2. import 等加载（异步和同步）文件的处理。
-2. 添加对 css（sass less postcss） 样式的支持。
-3. 对图片、svg 、装饰器的支持。
-4. json 读取处理。
+2. import 等加载（异步和同步）文件的处理。（done）
+2. 添加对 css（sass less postcss） 样式的支持。(done)
+3. 对图片、svg 、装饰器的支持。(done)
+4. json 读取处理。(自带支持)
 5. dll chunk，文件加载方式（按需加载、提前加载）的处理。
-6. server proxy。
+6. server proxy。（done）
+
+发现漏掉的配置：
+- rem 单位转换
+
 
 ### 第二阶段
 基于 create-react-app 的配置进行按需修改
