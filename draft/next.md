@@ -17,6 +17,7 @@
 6. server proxy。（done）
 
 发现漏掉的配置：
+- css3 兼容处理 autoprefixer
 - rem 单位转换
 
 
