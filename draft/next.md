@@ -17,7 +17,7 @@
 6. server proxy。（done）
 
 发现漏掉的配置：
-- css3 兼容处理 autoprefixer
+- css3 兼容处理 autoprefixer，压缩、单独提取，异步加载
 - rem 单位转换
 
 
