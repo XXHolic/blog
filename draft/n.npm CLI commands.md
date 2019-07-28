@@ -93,6 +93,8 @@ add 和 rm 的指令执行后，会同步到 npm 库上。
 ## npm-link
 
 
+##  npm audit fix
+
 <div align="right"><a href="#index">Top :arrow_up:</a></div>
 
 ## <a name="reference"></a> 参考资料
