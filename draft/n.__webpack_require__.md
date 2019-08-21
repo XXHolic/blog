@@ -1,0 +1,200 @@
+# n.__webpack_require__
+## <a name="index"></a> 目录
+- [引子](#start)
+- [问题1](#style)
+  - [问题12](#link)
+- [参考资料](#reference)
+
+
+## <a name="start"></a> 引子
+在 webpack 中无论选择哪种模块语法，那些 import 或 require 语句都会转换为 __webpack_require__ 方法，进行不同的配置，使用这个方法解析的方式也有些不同。
+
+使用 webpack 版本 4.39.2，webpack-cli 版本 3.3.2。
+## 查看方式
+webpack 会根据 mode 配置项，使用不同环境的内置优化。可选择的值有：
+- none：不使用任何默认优化选项
+- development：适用于开发环境。
+- production：默认选项，适用于生产环境。
+
+比较直观的区别如下图：
+
+
+三种模式生成的文件见[mode][url-file]，可以发现：
+1. 三种模式下，最后都是执行一个匿名的立即执行函数，模块作为参数传入。
+2. development 和 none 模式下都有注释，未压缩，production 模式下代码进行了压缩和混淆。
+3. development 和 none 模式下传参时每个模块都在，production 模式下某些情况下有些模块会合并优化。
+4. development 模式下模块的代码转换为了纯字符串，使用 eval 方法解析。none 模式下主要保持不变。
+5. development 模式下传参是 {} 形式，none 和 production 模式下传的是 [] 形式。
+
+为了便于查看，使用 none 模式。
+
+## 初步查看
+一个简单例子：
+- 一个 html 文件
+- 两个纯原生 js 文件
+
+在 webpack 配置中添加 entry、output、mode 项，在 html 中手动添加 script 标签，最后执行 webpack 命令。结果如下：
+```js
+(function(modules) {
+  // webpackBootstrap
+  // The module cache
+  var installedModules = {};
+
+  // The require function
+  function __webpack_require__(moduleId) {
+    // Check if module is in cache
+    if (installedModules[moduleId]) {
+      return installedModules[moduleId].exports;
+    }
+    // Create a new module (and put it into the cache)
+    var module = (installedModules[moduleId] = {
+      i: moduleId,
+      l: false,
+      exports: {}
+    });
+
+    // Execute the module function
+    modules[moduleId].call(
+      module.exports,
+      module,
+      module.exports,
+      __webpack_require__
+    );
+
+    // Flag the module as loaded
+    module.l = true;
+
+    // Return the exports of the module
+    return module.exports;
+  }
+
+  // expose the modules object (__webpack_modules__)
+  __webpack_require__.m = modules;
+
+  // expose the module cache
+  __webpack_require__.c = installedModules;
+
+  // define getter function for harmony exports
+  __webpack_require__.d = function(exports, name, getter) {
+    if (!__webpack_require__.o(exports, name)) {
+      Object.defineProperty(exports, name, { enumerable: true, get: getter });
+    }
+  };
+
+  // define __esModule on exports
+  __webpack_require__.r = function(exports) {
+    if (typeof Symbol !== "undefined" && Symbol.toStringTag) {
+      Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
+    }
+    Object.defineProperty(exports, "__esModule", { value: true });
+  };
+
+  // create a fake namespace object
+  // mode & 1: value is a module id, require it
+  // mode & 2: merge all properties of value into the ns
+  // mode & 4: return value when already ns object
+  // mode & 8|1: behave like require
+  __webpack_require__.t = function(value, mode) {
+    if (mode & 1) value = __webpack_require__(value);
+    if (mode & 8) return value;
+    if (mode & 4 && typeof value === "object" && value && value.__esModule)
+      return value;
+    var ns = Object.create(null);
+    __webpack_require__.r(ns);
+    Object.defineProperty(ns, "default", { enumerable: true, value: value });
+    if (mode & 2 && typeof value != "string")
+      for (var key in value)
+        __webpack_require__.d(
+          ns,
+          key,
+          function(key) {
+            return value[key];
+          }.bind(null, key)
+        );
+    return ns;
+  };
+
+  // getDefaultExport function for compatibility with non-harmony modules
+  __webpack_require__.n = function(module) {
+    var getter =
+      module && module.__esModule
+        ? function getDefault() {
+            return module["default"];
+          }
+        : function getModuleExports() {
+            return module;
+          };
+    __webpack_require__.d(getter, "a", getter);
+    return getter;
+  };
+
+  // Object.prototype.hasOwnProperty.call
+  __webpack_require__.o = function(object, property) {
+    return Object.prototype.hasOwnProperty.call(object, property);
+  };
+
+  // __webpack_public_path__
+  __webpack_require__.p = "";
+
+  // Load entry module and return exports
+  return __webpack_require__((__webpack_require__.s = 0));
+})(
+  /************************************************************************/
+  [
+    /* 0 */
+    function(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony import */
+      var _math__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+
+      function component() {
+        var element = document.createElement("div");
+        var num = Object(_math__WEBPACK_IMPORTED_MODULE_0__["square"])(2);
+        element.innerHTML = "Hello, Webpack " + num;
+        return element;
+      }
+
+      let element = component();
+      document.body.appendChild(element);
+    },
+    /* 1 */
+    function(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+      __webpack_require__.d(__webpack_exports__, "square", function() {
+        return square;
+      });
+      function square(x) {
+        return x * x;
+      }
+    }
+  ]
+);
+```
+__webpack_require__ 方法实现的大致思路比较容易看懂，结合注释简单整理一下相关属性：
+- m：数组，所有模块转换后的函数。
+- c：对象，已经加载模块的缓存。
+- d：函数，对于不兼容的导出定义 getter 函数。
+- r：函数，在导出对象上定义 __esModule 属性。
+- t：函数，创建一个虚拟的命名对象。
+- n：函数，对于不兼容的情况，获取默认的导出函数。
+- o：函数，用 hasOwnProperty 方法判断是否拥有对应属性。
+- p：字符串，默认是空字符串。
+- s：模块对应的标识。
+
+接着看下上面执行的逻辑：
+1. 立即执行函数执行，传入参数 modules，__webpack_require__ 方法默认取 modules 参数的第一个元素执行。
+2. 执行 __webpack_require__ 方法时，先判断是否在缓存的已加载模块 installedModules 中，有就直接返回，没有就创建新的模块对象 module，并添加信息缓存到 installedModules 中。
+3. 接着在 module 中找到对应的元素，使用 call 方法指向新创建的 module 对象的 exports ，并把 module、module.exports、__webpack_require__当做参数传入。
+4. 最后将模块对象 module 的已加载标志 l 设为 true，并返回 module 的 exports 对象。
+
+
+
+## <a name="reference"></a> 参考资料
+[wiki Regular Expression](https://en.wikipedia.org/wiki/Regular_expression)
+
+[url-base]:https://xxholic.github.io/blog/draft
+
+[url-file]:https://github.com/XXHolic/webpack-demo/tree/master/mode
