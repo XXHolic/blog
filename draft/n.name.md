@@ -21,6 +21,12 @@
 
 ### 十二泰坦
 - Hyperion（许珀里翁）：太阳神。(use)
+- Oceanus（欧申纳斯）：大洋河流之神，一切河流之父
+- Coeus（科俄斯）：
+- Crius（克利俄斯）：
+- Cronus（克洛诺斯）：（use）
+- Iapetus（伊阿珀托斯）：
+
 
 ## 参考资料
 - https://www.greekmythology.com/
