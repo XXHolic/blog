@@ -58,6 +58,7 @@
 - cyclamen 仙客来
 - begonia 秋海棠
 - anemone 银莲花
+- Purplevine（紫藤萝-use）
 
 wisteria 柴藤
 redbud 紫荆
