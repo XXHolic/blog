@@ -12,7 +12,8 @@
     "husky": "^0.14.3"
   },
   "scripts": {
-    "commitmsg": "commitlint -E GIT_PARAMS"
+    "commitmsg": "commitlint -E GIT_PARAMS",
+    "rn": "node './script/rn.js'"
   },
   "dependencies": {
     "js-yaml": "^3.13.1",
