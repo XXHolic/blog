@@ -9,7 +9,7 @@ var path = require("path");
 function readDir(dir) {
   var exist = fs.existsSync(dir);
   // 排除不需要遍历的文件夹或文件
-  var excludeDir = /^(\.|node_module)/;
+  var excludeDir = /^(\.|node_module|wx|images)/;
   if (!exist) {
     console.error("目录路径不存在");
     return;
