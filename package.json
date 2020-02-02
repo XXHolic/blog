@@ -13,7 +13,9 @@
   },
   "scripts": {
     "commitmsg": "commitlint -E GIT_PARAMS",
-    "rn": "node './script/rn.js'"
+    "rn": "node './script/rn.js'",
+    "del": "node './script/del.js'",
+    "tf": "node script/del.js && node script/cli.js"
   },
   "dependencies": {
     "js-yaml": "^3.13.1",

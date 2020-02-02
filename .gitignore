@@ -17,3 +17,7 @@ Thumbs.db
 node_modules/
 _site/
 *.plist
+draft/bky/
+draft/jj/
+draft/sf/
+draft/origin/
