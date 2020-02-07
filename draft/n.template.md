@@ -17,3 +17,5 @@
 [url-base]:https://xxholic.github.io/blog/draft
 
 [url-reference-1]:https://en.wikipedia.org/wiki/Regular_expression
+
+[url-local-rail]:./images/48/rail.png
