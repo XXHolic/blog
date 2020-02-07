@@ -8,14 +8,12 @@
 
 ## <a name="start"></a> 引子
 
-- [My GitHub][url-my-github]
-- [My JueJin][url-my-juejin]
-- [My SegmentFault][url-my-github]
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
 ## <a name="reference"></a> 参考资料
-[wiki Regular Expression](https://en.wikipedia.org/wiki/Regular_expression)
+- [wiki Regular Expression][url-reference-1]
 
 [url-base]:https://xxholic.github.io/blog/draft
-[url-my-github]:https://github.com/XXHolic
-[url-my-segment]:https://segmentfault.com/u/thyholic
-[url-my-juejin]:https://juejin.im/user/5dedaf556fb9a0162a0b6a80
+
+[url-reference-1]:https://en.wikipedia.org/wiki/Regular_expression
