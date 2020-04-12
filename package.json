@@ -15,13 +15,15 @@
     "commitmsg": "commitlint -E GIT_PARAMS",
     "rn": "node './script/rn.js'",
     "del": "node './script/del.js'",
-    "tf": "node script/del.js && node script/cli.js"
+    "tf": "node script/del.js && node script/cli.js",
+    "img": "node script/img.js"
   },
   "dependencies": {
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.13",
     "lodash.merge": "^4.6.2",
     "lodash.mergewith": "^4.6.2",
-    "lodash.template": "^4.5.0"
+    "lodash.template": "^4.5.0",
+    "tinify": "^1.6.0-beta.2"
   }
 }
