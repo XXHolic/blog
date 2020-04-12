@@ -3,6 +3,7 @@ const tinify = require("tinify");
 var fs = require("fs");
 var path = require("path");
 
+// 压缩时，填入自己的 key 值
 tinify.key = "";
 /**
  * 递归目录及下面的文件，找出目标文件
