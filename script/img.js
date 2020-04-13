@@ -47,7 +47,6 @@ function dealFile(filePath) {
   var fileName = path.basename(filePath);
 
   const source = tinify.fromFile(filePath);
-  console.info(`${fileName}压缩中~~~`);
   source.toFile(filePath,function() {
     console.info(`${fileName}压缩完成`);
   });
@@ -55,7 +54,8 @@ function dealFile(filePath) {
 
 }
 
-var currentPath = "./draft/images"; // 获取当前执行路径
+// 获取当前执行路径,后续新加的图片，这个针对性的改一下，因为免费的有压缩数量限制
+var currentPath = "./draft/images";
 var fileArr = []; // 存储目标文件路径
 
 readDir(currentPath);
