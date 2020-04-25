@@ -16,22 +16,22 @@
 - 为用户提供更加稳定的体验。
 - 完善和加强系统整体的监控能力。
 
-在这片[文章][[url-article-3]]中，去试用了国外三个系统。通常从一个异常发生到通知相关人员，需要经过下面几个阶段：
+在这片[文章][[url-article-3]]中，去试用了国外三个系统。从一个异常发生到通知相关人员，通常需要经过下面几个阶段：
 1. 信息采集
 2. 信息上报
 3. 统计和分析
 4. 报告和警告
 
-下面根据分别进行讨论。
+下面分别进行讨论。
 
 ## 信息采集
-由于实际情况的限制，异常的处理也需要分轻重缓急
+
 
 
 ## 信息上报
 
 ## 统计和分析
-
+四象限法则
 ## 报告和警告
 
 
@@ -52,6 +52,8 @@
 [url-wesite-1]:https://rollbar.com
 [url-wesite-2]:https://sentry.io/welcome/
 [url-wesite-3]:https://logrocket.com
+
+[url-book-1]:https://book.douban.com/subject/1028372/
 
 [url-blog-53]:https://github.com/XXHolic/blog/issues/53
 
