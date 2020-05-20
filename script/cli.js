@@ -58,7 +58,7 @@ function dealFile(filePath) {
   const addUrl = `\r\n\r\n[url-origin]:https://github.com/XXHolic/blog/issues/${articleLink}\r\n[url-my-github]:https://github.com/XXHolic`;
   let str = fs.readFileSync(filePath, { encoding: "utf-8" });
 
-  // 替换 .. 为实际地址
+  // 替换 ./images 为实际地址
   str = str.replace(/\.\/images/g, urlPrefix);
 
   // 用于 GitHub
