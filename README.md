@@ -46,29 +46,29 @@
 - [《简约至上》思考—为那些用户而设计](https://github.com/XXHolic/blog/issues/1)
 - [看书时感兴趣的一些小点记录](https://github.com/XXHolic/blog/issues/8)
 
-## 其它
-- [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
-- [Collision Detection](https://github.com/XXHolic/blog/issues/46)
+## 概念
 - [Async Function](https://github.com/XXHolic/blog/issues/36)
 - [Generator Function](https://github.com/XXHolic/blog/issues/35)
 - [Promise](https://github.com/XXHolic/blog/issues/34)
-- [关于 this 绑定](https://github.com/XXHolic/blog/issues/33)
 - [正则表达式](https://github.com/XXHolic/blog/issues/28)
-- [+0 和 -0](https://github.com/XXHolic/blog/issues/27)
-
 - [关于 HTTP](https://github.com/XXHolic/blog/issues/31)
-- [手机端的单击处理](https://github.com/XXHolic/blog/issues/20)
 - [超级微型编译器](https://github.com/XXHolic/blog/issues/24)
-- [Git 常用操作](https://github.com/XXHolic/blog/issues/23)
-- [npm developer guide](https://github.com/XXHolic/blog/issues/29)
 - [屏幕尺寸、像素、分辨率和 devicePixelRatio](https://github.com/XXHolic/blog/issues/11)
-- [使用 Babel 的三类方式](https://github.com/XXHolic/blog/issues/19)
 - [事件处理程序](https://github.com/XXHolic/blog/issues/18)
 - [Mouse Events & Touch Events](https://github.com/XXHolic/blog/issues/15)
 - [JavaScript 事件](https://github.com/XXHolic/blog/issues/14)
-
-- [关于 display: inline-block 产生的间隙](https://github.com/XXHolic/blog/issues/13)
 - [CSS 浮动 float 相关初解](https://github.com/XXHolic/blog/issues/9)
+
+## 其它
+- [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
+- [Collision Detection](https://github.com/XXHolic/blog/issues/46)
+- [关于 this 绑定](https://github.com/XXHolic/blog/issues/33)
+- [+0 和 -0](https://github.com/XXHolic/blog/issues/27)
+- [手机端的单击处理](https://github.com/XXHolic/blog/issues/20)
+- [Git 常用操作](https://github.com/XXHolic/blog/issues/23)
+- [npm developer guide](https://github.com/XXHolic/blog/issues/29)
+- [使用 Babel 的三类方式](https://github.com/XXHolic/blog/issues/19)
+- [关于 display: inline-block 产生的间隙](https://github.com/XXHolic/blog/issues/13)
 - [CSS 常见形状实现思路](https://github.com/XXHolic/blog/issues/7)
 - [CSS 形状初级理解](https://github.com/XXHolic/blog/issues/6)
 - [CSS 不定高宽度元素水平垂直居中](https://github.com/XXHolic/blog/issues/4)
