@@ -9,10 +9,15 @@
 ## <a name="start"></a> 引子
 
 
+
+## 注意点
+- 填写坐标点的时候，建议统一按照某个顺序编写，例如按照从上，顺时针的方向写坐标点。调整的时候会更方便，
+
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
 ## <a name="reference"></a> 参考资料
 - [wiki Regular Expression][url-reference-1]
+- https://github.com/keginx/species-in-pieces
 
 [url-base]:https://xxholic.github.io/blog/draft
 
