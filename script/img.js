@@ -4,7 +4,7 @@ var fs = require("fs");
 var path = require("path");
 
 // 压缩时，填入自己的 key 值
-tinify.key = "";
+tinify.key = "LzZkNRr6tDlJ3xDLr6Y7V0bkdyYYBs61";
 /**
  * 递归目录及下面的文件，找出目标文件
  * @param {String} dir 文件夹路径
@@ -55,7 +55,7 @@ function dealFile(filePath) {
 }
 
 // 获取当前执行路径,后续新加的图片，这个针对性的改一下，因为免费的有压缩数量限制
-var currentPath = "./draft/images/56";
+var currentPath = "./draft/images/57";
 var fileArr = []; // 存储目标文件路径
 
 readDir(currentPath);
