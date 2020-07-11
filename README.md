@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Read In Pieces](https://github.com/XXHolic/blog/issues/57)
 - [About Speed Tools](https://github.com/XXHolic/blog/issues/56)
 - [Read Dva](https://github.com/XXHolic/blog/issues/55)
-- [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
 
 ## 规范
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
@@ -20,6 +20,7 @@
 - [Web API 初接触](https://github.com/XXHolic/blog/issues/10)
 
 ## 阅读源码
+- [Read In Pieces](https://github.com/XXHolic/blog/issues/57)
 - [Read Dva](https://github.com/XXHolic/blog/issues/55)
 - [Read Redux-Saga](https://github.com/XXHolic/blog/issues/54)
 - [Read react-router](https://github.com/XXHolic/blog/issues/51)
