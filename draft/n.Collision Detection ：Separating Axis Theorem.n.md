@@ -215,6 +215,10 @@ for (let i = 0; i < axesLen; i++) {
 [url-article-5]:https://users.math.msu.edu/users/gnagy/teaching/11-fall/mth234/L03-234.pdf
 [url-article-6]:https://www.shuxuele.com/algebra/vectors-dot-product.html
 [url-article-7]:https://www.shuxuele.com/algebra/scalar-vector-matrix.html
+
+[url-article-8]:http://www.jeffreythompson.org/collision-detection/poly-circle.php
+[url-article-8]:https://math.stackexchange.com/questions/13176/how-to-find-a-point-on-a-line-closest-to-another-given-point
+
 [url-wiki-1]:https://en.wikipedia.org/wiki/Hyperplane_separation_theorem
 
 [url-lab-1]:https://xxholic.github.io/lab/blog/58/index.html
