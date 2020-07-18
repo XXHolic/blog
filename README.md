@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Collision Detection ：Point](https://github.com/XXHolic/blog/issues/59)
 - [Read In Pieces](https://github.com/XXHolic/blog/issues/57)
 - [About Speed Tools](https://github.com/XXHolic/blog/issues/56)
-- [Read Dva](https://github.com/XXHolic/blog/issues/55)
 
 ## 规范
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
@@ -20,7 +20,6 @@
 - [Web API 初接触](https://github.com/XXHolic/blog/issues/10)
 
 ## 阅读源码
-- [Read In Pieces](https://github.com/XXHolic/blog/issues/57)
 - [Read Dva](https://github.com/XXHolic/blog/issues/55)
 - [Read Redux-Saga](https://github.com/XXHolic/blog/issues/54)
 - [Read react-router](https://github.com/XXHolic/blog/issues/51)
@@ -37,6 +36,10 @@
 - [Performance Guide](https://github.com/XXHolic/blog/issues/48)
 - [Performance Metrics](https://github.com/XXHolic/blog/issues/49)
 - [About Speed Tools](https://github.com/XXHolic/blog/issues/56)
+
+## 碰撞检测
+- [Collision Detection](https://github.com/XXHolic/blog/issues/46)
+- [Collision Detection ：Point](https://github.com/XXHolic/blog/issues/59)
 
 ## 书籍
 - [How to read](https://github.com/XXHolic/blog/issues/45)
@@ -62,7 +65,6 @@
 
 ## 其它
 - [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
-- [Collision Detection](https://github.com/XXHolic/blog/issues/46)
 - [关于 this 绑定](https://github.com/XXHolic/blog/issues/33)
 - [+0 和 -0](https://github.com/XXHolic/blog/issues/27)
 - [手机端的单击处理](https://github.com/XXHolic/blog/issues/20)
