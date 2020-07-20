@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Collision Detection ：Rectangle](https://github.com/XXHolic/blog/issues/60)
 - [Collision Detection ：Point](https://github.com/XXHolic/blog/issues/59)
 - [Read In Pieces](https://github.com/XXHolic/blog/issues/57)
-- [About Speed Tools](https://github.com/XXHolic/blog/issues/56)
 
 ## 规范
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
@@ -40,6 +40,7 @@
 ## 碰撞检测
 - [Collision Detection](https://github.com/XXHolic/blog/issues/46)
 - [Collision Detection ：Point](https://github.com/XXHolic/blog/issues/59)
+- [Collision Detection ：Rectangle](https://github.com/XXHolic/blog/issues/60)
 
 ## 书籍
 - [How to read](https://github.com/XXHolic/blog/issues/45)
