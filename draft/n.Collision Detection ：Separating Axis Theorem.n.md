@@ -230,7 +230,7 @@ for (let i = 0; i < axesLen; i++) {
 [url-local-2]:./images/58/perpendicular-vector.png
 [url-local-3]:./images/58/projection.png
 [url-local-4]:./images/58/projection-2.gif
-[url-local-5]:./images/58/dot.png
+[url-local-5]:./images/n/dot.png
 [url-local-6]:./images/58/convex.png
 [url-local-7]:./images/58/concave.png
 [url-local-8]:./images/58/convex-shadow.png
