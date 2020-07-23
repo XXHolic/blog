@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
-- [Collision Detection ：Rectangle](https://github.com/XXHolic/blog/issues/60)
-- [Collision Detection ：Point](https://github.com/XXHolic/blog/issues/59)
-- [Read In Pieces](https://github.com/XXHolic/blog/issues/57)
+- [Collision Detection ：Triangle](https://github.com/XXHolic/blog/issues/63)
+- [Collision Detection ：Polygon](https://github.com/XXHolic/blog/issues/62)
+- [Collision Detection ：Line](https://github.com/XXHolic/blog/issues/61)
 
 ## 规范
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
@@ -41,6 +41,9 @@
 - [Collision Detection](https://github.com/XXHolic/blog/issues/46)
 - [Collision Detection ：Point](https://github.com/XXHolic/blog/issues/59)
 - [Collision Detection ：Rectangle](https://github.com/XXHolic/blog/issues/60)
+- [Collision Detection ：Line](https://github.com/XXHolic/blog/issues/61)
+- [Collision Detection ：Polygon](https://github.com/XXHolic/blog/issues/62)
+- [Collision Detection ：Triangle](https://github.com/XXHolic/blog/issues/63)
 
 ## 书籍
 - [How to read](https://github.com/XXHolic/blog/issues/45)
