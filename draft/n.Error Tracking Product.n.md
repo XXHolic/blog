@@ -1,8 +1,16 @@
 # n.Error Tracking Product.n
+## <a name="index"></a> 目录
+- [引子](#start)
+- [Rollbar](#rollbar)
+- [SENTRY](#sentry)
+- [LogRocket](#logrocket)
+- [参考资料](#reference)
+
+
 ## <a name="start"></a> 引子
 要做异常监控方面的尝试，先对已有的一些产品进行体验对比。
 
-## <a name="title1"></a> Rollbar
+## <a name="rollbar"></a> Rollbar
 产品概括：敏捷开发和持续交付的错误监控和崩溃报告。
 产品功能概括：实时监控、异常分类分析、异常信息重现调试、数据安全控制及认证
 
@@ -103,7 +111,10 @@
 - 自定义查询对于高级的用户来说，会是一个比较灵活的工具。
 - 异常处理时，团队合作也是要考虑的。
 
-## <a name="title1"></a> SENTRY
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="sentry"></a> SENTRY
 产品概括：Working Code, Happy Customers，这个口号感觉偏向开发者。
 产品功能概括：异常信息、事件监听、数据筛选及可视化
 
@@ -219,15 +230,101 @@
 - sentry 对于项目单独的功能模块，相对比 rollbar 更加直观一些。
 - 自身系统的日志，对于团队合作来说，也是一个比较重要的参考。
 
-## <a name="title1"></a> LogRocket
+
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="logrocket"></a> LogRocket
 产品概括：重现用户操作和 bug，帮助更快修复 bug 。
-产品功能概括：实时监控、异常分类分析、异常信息重现调试、数据安全控制及认证
+产品功能概括：主打重新功能。
 
 其它信息：
 - 有免费版本，有限制的免费
-- 多开发语言版本，多平台
+- 支持的开发语言版本有限。
 - 非开源
 
+### 实际使用体验
+初次使用时，有引导，是强制性的。
+
+<details>
+<summary>图示</summary>
+
+![n-logrocket-guide1][url-local-21]
+![n-logrocket-guide2][url-local-22]
+![n-logrocket-guide3][url-local-23]
+
+</details>
+
+左侧菜单主要有 Everyone、Signed-up、Mobile、New Users、Inactive User、Settings。下面进行进一步说明。
+
+#### Everyone
+针对所有用户统计。
+
+<details>
+<summary>图示</summary>
+
+![n-logrocket-everyone][url-local-24]
+
+</details>
+
+#### Signed-up
+针对注册用户统计。
+
+<details>
+<summary>图示</summary>
+
+![n-logrocket-signed][url-local-25]
+
+</details>
+
+#### Mobile
+针对移动端用户统计。
+
+<details>
+<summary>图示</summary>
+
+![n-logrocket-mobile][url-local-26]
+
+</details>
+
+#### New Users
+针对新的用户统计。
+
+<details>
+<summary>图示</summary>
+
+![n-logrocket-new-users][url-local-27]
+
+</details>
+
+
+#### Inactive User
+针对未激活的用户统计。
+
+<details>
+<summary>图示</summary>
+
+![n-logrocket-inactive-users][url-local-28]
+
+</details>
+
+
+
+#### Settings
+系统基本设置，成员、权限、团队等设置。
+
+<details>
+<summary>图示</summary>
+
+![n-logrocket-settings][url-local-29]
+
+</details>
+
+
+### 分析
+- LogRocket 感觉适合用于统计拉新用户时分析，主要维度是用户。
+- 可视化的复现以及网络相关信息的回放，是一个很大的亮点。
+- 组合式的筛选方式比较新颖。
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
@@ -258,17 +355,13 @@
 [url-local-19]:./images/error-tracking-product/sentry-settings.png
 [url-local-20]:./images/error-tracking-product/sentry-guide.png
 
-<details>
-<summary>:wastebasket:</summary>
+[url-local-21]:./images/error-tracking-product/logrocket-guide1.png
+[url-local-22]:./images/error-tracking-product/logrocket-guide2.png
+[url-local-23]:./images/error-tracking-product/logrocket-guide3.png
+[url-local-24]:./images/error-tracking-product/logrocket-everyone.png
+[url-local-25]:./images/error-tracking-product/logrocket-signed.png
+[url-local-26]:./images/error-tracking-product/logrocket-mobile.png
+[url-local-27]:./images/error-tracking-product/logrocket-new-users.png
+[url-local-28]:./images/error-tracking-product/logrocket-inactive-users.png
+[url-local-29]:./images/error-tracking-product/logrocket-settings.png
 
-
-最近在看[][url-book]，里面关于性的设定很有意思，在书中描述的星球上，是没有性别区分的。下面是书中部分摘录。
-
-
-
-![49-poster][url-local-poster]
-
-</details>
-
-[url-book]:https://book.douban.com/subject/26916012/
-[url-local-poster]:./images/49/poster.jpg
