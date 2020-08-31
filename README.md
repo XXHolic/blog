@@ -19,18 +19,6 @@
 - [关于 JavaScript 标准](https://github.com/XXHolic/blog/issues/22)
 - [Web API 初接触](https://github.com/XXHolic/blog/issues/10)
 
-## 阅读源码
-- [Read Dva](https://github.com/XXHolic/blog/issues/55)
-- [Read Redux-Saga](https://github.com/XXHolic/blog/issues/54)
-- [Read react-router](https://github.com/XXHolic/blog/issues/51)
-- [Read mini-create-react-context](https://github.com/XXHolic/blog/issues/50)
-- [Read rc-upload](https://github.com/XXHolic/blog/issues/44)
-- [Read history](https://github.com/XXHolic/blog/issues/42)
-- [Read \_\_webpack_require__](https://github.com/XXHolic/blog/issues/41)
-- [Read Lodash ：cloneDeep](https://github.com/XXHolic/blog/issues/40)
-- [Read Redux](https://github.com/XXHolic/blog/issues/37)
-- [Read React ：Component](https://github.com/XXHolic/blog/issues/38)
-
 ## 性能
 - [About Performance](https://github.com/XXHolic/blog/issues/47)
 - [Performance Guide](https://github.com/XXHolic/blog/issues/48)
@@ -47,15 +35,6 @@
 - [Collision Detection ：Transformation](https://github.com/XXHolic/blog/issues/64)
 - [Collision Detection ：Separating Axis Theorem](https://github.com/XXHolic/blog/issues/65)
 
-## 书籍
-- [How to read](https://github.com/XXHolic/blog/issues/45)
-- [一般智能和大五人格](https://github.com/XXHolic/blog/issues/21)
-- [优雅的说“不”](https://github.com/XXHolic/blog/issues/12)
-- [《黑客和画家》—不能说的话](https://github.com/XXHolic/blog/issues/5)
-- [《简约至上》—什么是简单](https://github.com/XXHolic/blog/issues/2)
-- [《简约至上》思考—为那些用户而设计](https://github.com/XXHolic/blog/issues/1)
-- [看书时感兴趣的一些小点记录](https://github.com/XXHolic/blog/issues/8)
-
 ## 概念
 - [Async Function](https://github.com/XXHolic/blog/issues/36)
 - [Generator Function](https://github.com/XXHolic/blog/issues/35)
@@ -68,6 +47,29 @@
 - [Mouse Events & Touch Events](https://github.com/XXHolic/blog/issues/15)
 - [JavaScript 事件](https://github.com/XXHolic/blog/issues/14)
 - [CSS 浮动 float 相关初解](https://github.com/XXHolic/blog/issues/9)
+
+## 阅读源码
+- [Read Dva](https://github.com/XXHolic/blog/issues/55)
+- [Read Redux-Saga](https://github.com/XXHolic/blog/issues/54)
+- [Read react-router](https://github.com/XXHolic/blog/issues/51)
+- [Read mini-create-react-context](https://github.com/XXHolic/blog/issues/50)
+- [Read rc-upload](https://github.com/XXHolic/blog/issues/44)
+- [Read history](https://github.com/XXHolic/blog/issues/42)
+- [Read \_\_webpack_require__](https://github.com/XXHolic/blog/issues/41)
+- [Read Lodash ：cloneDeep](https://github.com/XXHolic/blog/issues/40)
+- [Read Redux](https://github.com/XXHolic/blog/issues/37)
+- [Read React ：Component](https://github.com/XXHolic/blog/issues/38)
+
+
+## 书籍
+- [How to read](https://github.com/XXHolic/blog/issues/45)
+- [一般智能和大五人格](https://github.com/XXHolic/blog/issues/21)
+- [优雅的说“不”](https://github.com/XXHolic/blog/issues/12)
+- [《黑客和画家》—不能说的话](https://github.com/XXHolic/blog/issues/5)
+- [《简约至上》—什么是简单](https://github.com/XXHolic/blog/issues/2)
+- [《简约至上》思考—为那些用户而设计](https://github.com/XXHolic/blog/issues/1)
+- [看书时感兴趣的一些小点记录](https://github.com/XXHolic/blog/issues/8)
+
 
 ## 其它
 - [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
