@@ -288,17 +288,319 @@ function checkLineRectangle({x1,y1,x2,y2,rx,ry,rw,rh}) {
 </details>
 
 ## Rectangle
+<details>
+<summary>Rectangle/Point</summary>
+
+思路：点的坐标是否在矩形的坐标范围之内。
+
+[示例页面][url-lab-8]
+
+```js
+/*
+ * (px,py) 点的坐标
+ * (rx,ry) 矩形顶点的坐标
+ * rw 矩形的宽度
+ * rh 矩形的高度
+ */
+function checkRectanglePoint({px,py,rx,ry,rw,rh}) {
+  const isTrue = px >= rx && // 左边界
+                 px <= rx + rw && // 右边界
+                 py >= ry && // 上边界
+                 py <= ry + rh; // 下边界
+  if (isTrue) {
+    return true; // 发生碰撞
+  } else {
+    return false; // 没有碰撞
+  }
+}
+```
+
+</details>
+
+<details>
+<summary>Rectangle/Rectangle</summary>
+
+**矩形与矩形**的碰撞检测，看下面一张图：
+
+![rect-rect][url-local-2]
+
+思路：根据点的坐标比较。
+
+[示例页面][url-lab-9]
+
+```js
+/*
+ * (px,py) 点的坐标
+ * (rx,ry) 矩形顶点的坐标
+ * rw 矩形的宽度
+ * rh 矩形的高度
+ */
+function checkRectanglePoint({px,py,rx,ry,rw,rh}) {
+  const isTrue = px >= rx && // 左边界
+                 px <= rx + rw && // 右边界
+                 py >= ry && // 上边界
+                 py <= ry + rh; // 下边界
+  if (isTrue) {
+    return true; // 发生碰撞
+  } else {
+    return false; // 没有碰撞
+  }
+}
+```
+
+</details>
+
+<details>
+<summary>Rectangle/Circle</summary>
+
+思路：
+1. 首先要确定圆处于矩形那个边界；
+2. 然后在边界上确定与圆心距离最短的点；
+3. 最后使用勾股定理计算出距离，与圆心半径进行比较。
+
+
+[示例页面][url-lab-10]
+
+```js
+/*
+ * (cx,cy) 圆心的坐标
+ * radius 圆的半径
+ * (rx,ry) 矩形顶点的坐标
+ * rw 矩形的宽度
+ * rh 矩形的高度
+ */
+function checkRectangleCircle({cx,cy,radius,rx,ry,rw,rh}) {
+  let nearestX = cx,nearestY = cy; // 初始化边界上离圆心最近的点坐标
+  if (cx < rx) {
+    nearestX = rx;
+  } else if (cx > rx + rw) {
+    nearestX = rx + rw;
+  }
+  if (cy < ry) {
+    nearestY = ry;
+  } else if (cy > ry + rh) {
+    nearestY = ry + rh;
+  }
+  const distX = cx-nearestX;
+  const distY = cy-nearestY;
+  const distance = Math.sqrt( (distX*distX) + (distY*distY) );
+
+  if (distance <= radius) {
+    return true; // 发生碰撞
+  } else {
+    return false; // 没有碰撞
+  }
+}
+```
+
+</details>
+
 
 ## Polygon
+<details>
+<summary>Polygon/Point</summary>
 
+思路：**多边形与点**的碰撞检测，需要每一条边与点进行检测，才能确定是否产生了碰撞。
+
+
+[示例页面][url-lab-11]
+
+```js
+/*
+ * points 多边形顶点坐标，形式为 [[x1,y1],[x2,y2]]
+ * (px,py) 检测点坐标
+ */
+function checkPolygonPoint({points,px,py}) {
+  let collision = false;
+  const pointsLen = points.length;
+
+  for (let index = 0; index < pointsLen; index++) {
+    const currentPoint = points[index];
+    const next = index === pointsLen-1 ? 0:index+1;
+    const nextPoint = points[next];
+    const [cx,cy] = currentPoint;
+    const [nx,ny] = nextPoint;
+    // 乔丹曲线定理
+    const judgeX = px < (nx-cx)*(py-cy) / (ny-cy)+cx;
+    const judgeY = (cy >= py && ny < py) || (cy < py && ny >= py);
+    if (judgeX && judgeY) {
+      collision = !collision;
+    }
+  }
+
+  return collision;
+}
+```
+
+</details>
+
+
+<details>
+<summary>Polygon/Circle</summary>
+
+思路：**多边形与圆**的碰撞检测，可以分解为多边形的边与圆的碰撞检测，只要有一条边产生了碰撞，就可以进行判定。
+
+这个时候可以使用之前介绍的关于 **Line/Circle** 检测的方法。
+
+[示例页面][url-lab-12]
+
+```js
+/*
+ * points 多边形顶点坐标，形式为 [[x1,y1],[x2,y2]]
+ * (cx,cy) 圆心坐标
+ * radius 圆半径
+ */
+function checkPolygonCircle({points,cx,cy,radius}) {
+  const pointsLen = points.length;
+
+  for (let index = 0; index < pointsLen; index++) {
+    const currentPoint = points[index];
+    const next = index === pointsLen-1 ? 0:index+1;
+    const nextPoint = points[next];
+    const [x1,y1] = currentPoint;
+    const [x2,y2] = nextPoint;
+    const collision = checkLineCircle({x1,y1,x2,y2,cx,cy,radius});
+    if (collision) {
+      return true;
+    }
+  }
+
+  return false;
+}
+```
+
+</details>
+
+<details>
+<summary>Polygon/Rectangle</summary>
+
+思路：**多边形与矩形**的碰撞检测，可以分解为多边形的边与矩形的碰撞检测，只要有一条边产生了碰撞，就可以进行判定。
+
+这个时候可以使用之前介绍的关于 **Line/Rectangle** 检测的方法。
+
+[示例页面][url-lab-13]
+
+```js
+/*
+ * points 多边形顶点坐标，形式为 [[x1,y1],[x2,y2]]
+ * (rx,ry) 矩形左上角顶点坐标
+ * rw 矩形宽度
+ * rh 矩形高度
+ */
+function checkPolygonRectangle({points,rx,ry,rw,rh}) {
+  const pointsLen = points.length;
+
+  for (let index = 0; index < pointsLen; index++) {
+    const currentPoint = points[index];
+    const next = index === pointsLen-1 ? 0:index+1;
+    const nextPoint = points[next];
+    const [x1,y1] = currentPoint;
+    const [x2,y2] = nextPoint;
+    const collision = checkLineRectangle({x1,y1,x2,y2,rx,ry,rw,rh});
+    if (collision) {
+      return true;
+    }
+  }
+
+  return false;
+
+}
+```
+
+</details>
+
+
+
+
+
+<details>
+<summary>Polygon/Line</summary>
+
+思路：**多边形与直线**的碰撞检测，可以分解为多边形的边与直线的碰撞检测，只要有一条边产生了碰撞，就可以进行判定。
+
+这个时候可以使用之前介绍的关于 **Line/Line** 检测的方法。
+
+[示例页面][url-lab-14]
+
+```js
+/*
+ * points 多边形顶点坐标，形式为 [[x1,y1],[x2,y2]]
+ * (x1,y1) 直线线端点坐标
+ * (x2,y2) 直线另一个端点坐标
+ */
+function checkPolygonLine({points,x1,y1,x2,y2}) {
+  const pointsLen = points.length;
+
+  for (let index = 0; index < pointsLen; index++) {
+    const currentPoint = points[index];
+    const next = index === pointsLen-1 ? 0:index+1;
+    const nextPoint = points[next];
+    const [x3,y3] = currentPoint;
+    const [x4,y4] = nextPoint;
+
+    const collision = checkLineLine({x1,y1,x2,y2,x3,y3,x4,y4});
+    if (collision) {
+      return true;
+    }
+  }
+
+  return false;
+
+}
+```
+
+</details>
+
+<details>
+<summary>Polygon/Polygon</summary>
+
+思路：**多边形与多边形**的碰撞检测，检测一个多边形任意边是否与另外一个多边形的任意边产生碰撞。
+
+这个时候可以使用前面介绍的关于 **Polygon/Line** 检测的方法。
+
+[示例页面][url-lab-15]
+
+```js
+/*
+ * points1 多边形1顶点坐标，形式为 [[x1,y1],[x2,y2]]
+ * points2 多边形2顶点坐标，形式为 [[x1,y1],[x2,y2]]
+ */
+function checkPolygonPolygon({points1,points2}) {
+  const pointsLen = points1.length;
+
+  for (let index = 0; index < pointsLen; index++) {
+    const currentPoint = points1[index];
+    const next = index === pointsLen-1 ? 0:index+1;
+    const nextPoint = points1[next];
+    const [x1,y1] = currentPoint;
+    const [x2,y2] = nextPoint;
+    const collision = checkPolygonLine({points:points2,x1,y1,x2,y2});
+    if (collision) {
+      return true;
+    }
+  }
+
+  return false;
+
+}
+```
+
+</details>
 
 ## Transformation
+到目前为止介绍的都是静态的检测，动态的碰撞检测又是如何？
 
+思路：基于 canvas 的动画原理是每隔一段时间进行重绘，所以在检测的时候，实际上是在特定的时刻，进行静态的碰撞检测，所以之前介绍的方法同样适用。
 
-<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+提示：关键之一是如何获取相关点动态变化的坐标，canvas 的动画都是通过改变坐标轴来实现的，而不是动态改变点的坐标。
+
+[示例页面][url-lab-16]
+
 
 ## <a name="reference"></a> 参考资料
-- [article][url-article-1]
+- [CollisionDetection][url-github-1]
+
+[url-github-1]:https://github.com/jeffThompson/CollisionDetection
 
 [url-article-1]:https://www.shuxuele.com/algebra/vectors-dot-product.html
 
@@ -309,15 +611,24 @@ function checkLineRectangle({x1,y1,x2,y2,rx,ry,rw,rh}) {
 [url-lab-5]:https://xxholic.github.io/lab/blog/60/line-circle.html
 [url-lab-6]:https://xxholic.github.io/lab/blog/60/line-line.html
 [url-lab-7]:https://xxholic.github.io/lab/blog/60/line-rectangle.html
+[url-lab-8]:https://xxholic.github.io/lab/blog/59/rectangle-point.html
+[url-lab-9]:https://xxholic.github.io/lab/blog/59/rectangle-rectangle.html
+[url-lab-10]:https://xxholic.github.io/lab/blog/59/rectangle-circle.html
+[url-lab-11]:https://xxholic.github.io/lab/blog/61/polygon-point.html
+[url-lab-12]:https://xxholic.github.io/lab/blog/61/polygon-circle.html
+[url-lab-13]:https://xxholic.github.io/lab/blog/61/polygon-rectangle.html
+[url-lab-14]:https://xxholic.github.io/lab/blog/61/polygon-line.html
+[url-lab-15]:https://xxholic.github.io/lab/blog/61/polygon-polygon.html
+[url-lab-16]:https://xxholic.github.io/lab/blog/63/translate-rotate.html
 
 [url-local-1]:./images/collision-detection/line-point.jpg
+[url-local-2]:./images/collision-detection/rect-rect.jpg
 
 <details>
-<summary>:wastebasket:</summary>
+<summary>无忧无虑的秘诀</summary>
 
-![n-poster][url-local-poster]
+![poster][url-local-poster]
 
 </details>
 
-[url-book]:https://book.douban.com/subject/26916012/
-[url-local-poster]:./images/n/poster.jpg
+[url-local-poster]:./images/collision-detection/poster.png
