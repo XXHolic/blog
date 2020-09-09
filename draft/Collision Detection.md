@@ -12,7 +12,7 @@
 - Polygon
 - Transformation
 
-最后会展示基于上面的方法做的一个小游戏。
+最后会展示基于上面的方法做的一个[小游戏][url-lab-game]。
 
 
 ## Point
@@ -620,6 +620,8 @@ function checkPolygonPolygon({points1,points2}) {
 [url-lab-14]:https://xxholic.github.io/lab/blog/61/polygon-line.html
 [url-lab-15]:https://xxholic.github.io/lab/blog/61/polygon-polygon.html
 [url-lab-16]:https://xxholic.github.io/lab/blog/63/translate-rotate.html
+
+[url-lab-game]:https://xxholic.github.io/lab/blog/cast-money/index.html
 
 [url-local-1]:./images/collision-detection/line-point.jpg
 [url-local-2]:./images/collision-detection/rect-rect.jpg
