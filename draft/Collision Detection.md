@@ -588,13 +588,31 @@ function checkPolygonPolygon({points1,points2}) {
 </details>
 
 ## Transformation
-到目前为止介绍的都是静态的检测，动态的碰撞检测又是如何？
+
+<details>
+<summary>到目前为止介绍的都是静态的检测，动态的碰撞检测又是如何？</summary>
 
 思路：基于 canvas 的动画原理是每隔一段时间进行重绘，所以在检测的时候，实际上是在特定的时刻，进行静态的碰撞检测，所以之前介绍的方法同样适用。
 
-提示：关键之一是如何获取相关点动态变化的坐标，canvas 的动画都是通过改变坐标轴来实现的，而不是动态改变点的坐标。
+关键之一是如何获取相关点动态变化的坐标，下面以平移的动画效果为例进行说明。
+
+在 canvas 上进行绘制时，都是基于坐标系进行定位，画布左上角为坐标系原点，水平向右为 X 轴正方向，垂直向下为 Y 轴正方向。绘制一个矩形 `rect(20, 20, 40, 40)` ，在坐标系上是这样的：
+
+![origin][url-local-3]
+
+如果想要水平向右移动 60 像素，垂直向下移动 80 像素，可以直接进行坐标相加：`rect(20 + 60, 20 + 80, 40, 40)` 。
+
+![new-coord][url-local-4]
+
+但还有另外一种更有趣的方式：**移动整个坐标轴**。如果把整个坐标轴水平向右移动 60 像素，垂直向下移动 80 像素，在视觉上是完全一样的。 canvas 的 `translate` 方法就是使用这种方式。
+
+![moved-grid][url-local-5]
+
+从上图可以发现，这种方式不用考虑矩形的坐标变化，在处理比较复杂的图形时，会方便很多。
 
 [示例页面][url-lab-16]
+
+</details>
 
 
 ## <a name="reference"></a> 参考资料
@@ -625,6 +643,9 @@ function checkPolygonPolygon({points1,points2}) {
 
 [url-local-1]:./images/collision-detection/line-point.jpg
 [url-local-2]:./images/collision-detection/rect-rect.jpg
+[url-local-3]:./images/collision-detection/original.png
+[url-local-4]:./images/collision-detection/new-coord.png
+[url-local-5]:./images/collision-detection/moved-grid.png
 
 <details>
 <summary>无忧无虑的秘诀</summary>
