@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [异常监控系统体验分析](https://github.com/XXHolic/blog/issues/66)
 - [Collision Detection ：Separating Axis Theorem](https://github.com/XXHolic/blog/issues/65)
 - [Collision Detection ：Transformation](https://github.com/XXHolic/blog/issues/64)
-- [Collision Detection ：Triangle](https://github.com/XXHolic/blog/issues/63)
 
 ## 规范参考
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
@@ -69,7 +69,7 @@
 
 
 ## 前端异常监控
-- [异常监控系统体验分析 ](https://github.com/XXHolic/blog/issues/66)
+- [异常监控系统体验分析](https://github.com/XXHolic/blog/issues/66)
 - [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
 
 
