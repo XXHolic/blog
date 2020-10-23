@@ -77,7 +77,6 @@
 - [+0 和 -0](https://github.com/XXHolic/blog/issues/27)
 - [手机端的单击处理](https://github.com/XXHolic/blog/issues/20)
 - [Git 常用操作](https://github.com/XXHolic/blog/issues/23)
-- [npm developer guide](https://github.com/XXHolic/blog/issues/29)
 - [使用 Babel 的三类方式](https://github.com/XXHolic/blog/issues/19)
 - [关于 display: inline-block 产生的间隙](https://github.com/XXHolic/blog/issues/13)
 - [CSS 常见形状实现思路](https://github.com/XXHolic/blog/issues/7)
