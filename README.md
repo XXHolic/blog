@@ -68,7 +68,8 @@
 - [看书时感兴趣的一些小点记录](https://github.com/XXHolic/blog/issues/8)
 
 
-## 其它
+## 前端异常监控
+- [异常监控系统体验分析 ](https://github.com/XXHolic/blog/issues/66)
 - [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
 
 
