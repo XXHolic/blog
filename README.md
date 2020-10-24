@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [《观看之道》—裸体和裸像](https://github.com/XXHolic/blog/issues/67)
 - [异常监控系统体验分析](https://github.com/XXHolic/blog/issues/66)
 - [Collision Detection ：Separating Axis Theorem](https://github.com/XXHolic/blog/issues/65)
-- [Collision Detection ：Transformation](https://github.com/XXHolic/blog/issues/64)
 
 ## 规范参考
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
@@ -60,6 +60,7 @@
 
 ## 书籍
 - [How to read](https://github.com/XXHolic/blog/issues/45)
+- [《观看之道》—裸体和裸像](https://github.com/XXHolic/blog/issues/67)
 - [一般智能和大五人格](https://github.com/XXHolic/blog/issues/21)
 - [优雅的说“不”](https://github.com/XXHolic/blog/issues/12)
 - [《黑客和画家》—不能说的话](https://github.com/XXHolic/blog/issues/5)
