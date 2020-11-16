@@ -32,6 +32,11 @@
 
 ## <a name="reference"></a> 参考资料
 - [mitojs][url-github-1]
+- https://blog.fundebug.com/2017/04/05/understand-script-error/
+- https://blog.fundebug.com/2017/04/06/test-script-error/
+- https://blog.fundebug.com/2017/04/07/solve-script-error/
+- https://stackoverflow.com/questions/5913978/cryptic-script-error-reported-in-javascript-in-chrome-and-firefox
+- https://blog.sentry.io/2016/05/17/what-is-script-error.html
 
 [url-github-1]:https://github.com/clouDr-f2e/mitojs
 
