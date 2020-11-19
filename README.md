@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [前端异常示例](https://github.com/XXHolic/blog/issues/68)
 - [《观看之道》—裸体和裸像](https://github.com/XXHolic/blog/issues/67)
 - [异常监控系统体验分析](https://github.com/XXHolic/blog/issues/66)
-- [Collision Detection ：Separating Axis Theorem](https://github.com/XXHolic/blog/issues/65)
 
 ## 规范参考
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
@@ -72,7 +72,7 @@
 ## 前端异常监控
 - [异常监控系统体验分析](https://github.com/XXHolic/blog/issues/66)
 - [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
-
+- [前端异常示例](https://github.com/XXHolic/blog/issues/68)
 
 
 
