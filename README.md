@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Read TraceKit](https://github.com/XXHolic/blog/issues/69)
 - [前端异常示例](https://github.com/XXHolic/blog/issues/68)
 - [《观看之道》—裸体和裸像](https://github.com/XXHolic/blog/issues/67)
-- [异常监控系统体验分析](https://github.com/XXHolic/blog/issues/66)
 
 ## 规范参考
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
@@ -46,6 +46,7 @@
 - [+0 和 -0](https://github.com/XXHolic/blog/issues/27)
 
 ## 阅读源码
+- [Read TraceKit](https://github.com/XXHolic/blog/issues/69)
 - [Read Dva](https://github.com/XXHolic/blog/issues/55)
 - [Read Redux-Saga](https://github.com/XXHolic/blog/issues/54)
 - [Read react-router](https://github.com/XXHolic/blog/issues/51)
@@ -73,7 +74,7 @@
 - [异常监控系统体验分析](https://github.com/XXHolic/blog/issues/66)
 - [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
 - [前端异常示例](https://github.com/XXHolic/blog/issues/68)
-
+- [Read TraceKit](https://github.com/XXHolic/blog/issues/69)
 
 
 
