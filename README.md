@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [《ARAKI HIROHIKO NO MANGAJYUTSU》—看漫画的思考](https://github.com/XXHolic/blog/issues/75)
 - [前端异常上报](https://github.com/XXHolic/blog/issues/73)
 - [前端异常解析：Source Map](https://github.com/XXHolic/blog/issues/71)
-- [前端异常解析](https://github.com/XXHolic/blog/issues/70)
 
 ## 规范参考
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
@@ -61,6 +61,7 @@
 
 ## 书籍
 - [How to read](https://github.com/XXHolic/blog/issues/45)
+- [《ARAKI HIROHIKO NO MANGAJYUTSU》—看漫画的思考](https://github.com/XXHolic/blog/issues/75)
 - [《观看之道》—裸体和裸像](https://github.com/XXHolic/blog/issues/67)
 - [一般智能和大五人格](https://github.com/XXHolic/blog/issues/21)
 - [优雅的说“不”](https://github.com/XXHolic/blog/issues/12)
