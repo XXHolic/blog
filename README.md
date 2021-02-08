@@ -3,11 +3,12 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
 - [《ARAKI HIROHIKO NO MANGAJYUTSU》—看漫画的思考](https://github.com/XXHolic/blog/issues/75)
 - [前端异常上报](https://github.com/XXHolic/blog/issues/73)
-- [前端异常解析：Source Map](https://github.com/XXHolic/blog/issues/71)
 
 ## 规范参考
+- [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
 - [JavaScript 团队规范参考](https://github.com/XXHolic/blog/issues/43)
 - [CSS 团队规范参考](https://github.com/XXHolic/blog/issues/30)
