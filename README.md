@@ -3,10 +3,12 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
 - [NodeJS and Good Practices](https://github.com/XXHolic/blog/issues/77)
 - [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
-- [《ARAKI HIROHIKO NO MANGAJYUTSU》—看漫画的思考](https://github.com/XXHolic/blog/issues/75)
 
+## Scalable Frontend
+- [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
 ## 规范参考
 - [NodeJS and Good Practices](https://github.com/XXHolic/blog/issues/77)
 - [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
