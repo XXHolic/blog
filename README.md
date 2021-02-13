@@ -3,12 +3,13 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Scalable Frontend 2 — Common Patterns](https://github.com/XXHolic/blog/issues/79)
 - [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
 - [NodeJS and Good Practices](https://github.com/XXHolic/blog/issues/77)
-- [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
 
 ## Scalable Frontend
 - [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
+- [Scalable Frontend 2 — Common Patterns](https://github.com/XXHolic/blog/issues/79)
 ## 规范参考
 - [NodeJS and Good Practices](https://github.com/XXHolic/blog/issues/77)
 - [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
