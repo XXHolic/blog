@@ -3,15 +3,16 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [The Clean Architecture](https://github.com/XXHolic/blog/issues/81)
 - [Scalable Frontend 3 —The State Layer](https://github.com/XXHolic/blog/issues/80)
 - [Scalable Frontend 2 — Common Patterns](https://github.com/XXHolic/blog/issues/79)
-- [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
 
 ## Scalable Frontend
 - [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
 - [Scalable Frontend 2 — Common Patterns](https://github.com/XXHolic/blog/issues/79)
 - [Scalable Frontend 3 —The State Layer](https://github.com/XXHolic/blog/issues/80)
 ## 规范参考
+- [The Clean Architecture](https://github.com/XXHolic/blog/issues/81)
 - [NodeJS and Good Practices](https://github.com/XXHolic/blog/issues/77)
 - [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
