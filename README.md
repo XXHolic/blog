@@ -3,15 +3,16 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [10 Common Software Architectural Patterns in a nutshelle](https://github.com/XXHolic/blog/issues/82)
 - [The Clean Architecture](https://github.com/XXHolic/blog/issues/81)
 - [Scalable Frontend 3 —The State Layer](https://github.com/XXHolic/blog/issues/80)
-- [Scalable Frontend 2 — Common Patterns](https://github.com/XXHolic/blog/issues/79)
 
 ## Scalable Frontend
 - [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
 - [Scalable Frontend 2 — Common Patterns](https://github.com/XXHolic/blog/issues/79)
 - [Scalable Frontend 3 —The State Layer](https://github.com/XXHolic/blog/issues/80)
 ## 规范参考
+- [10 Common Software Architectural Patterns in a nutshelle](https://github.com/XXHolic/blog/issues/82)
 - [The Clean Architecture](https://github.com/XXHolic/blog/issues/81)
 - [NodeJS and Good Practices](https://github.com/XXHolic/blog/issues/77)
 - [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
