@@ -3,9 +3,14 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
-- [10 Common Software Architectural Patterns in a nutshelle](https://github.com/XXHolic/blog/issues/82)
-- [The Clean Architecture](https://github.com/XXHolic/blog/issues/81)
-- [Scalable Frontend 3 —The State Layer](https://github.com/XXHolic/blog/issues/80)
+- [Chrome 扩展 : 入门](https://github.com/XXHolic/blog/issues/85)
+- [Chrome 扩展 : 扩展是什么?](https://github.com/XXHolic/blog/issues/84)
+- [Chrome 扩展 : 欢迎](https://github.com/XXHolic/blog/issues/83)
+
+## Chrome Extensions
+- [Chrome 扩展 : 欢迎](https://github.com/XXHolic/blog/issues/83)
+- [Chrome 扩展 : 扩展是什么?](https://github.com/XXHolic/blog/issues/84)
+- [Chrome 扩展 : 入门](https://github.com/XXHolic/blog/issues/85)
 
 ## Scalable Frontend
 - [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
