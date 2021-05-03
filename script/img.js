@@ -55,7 +55,7 @@ function dealFile(filePath) {
 }
 
 // 获取当前执行路径,后续新加的图片，这个针对性的改一下，因为免费的有压缩数量限制
-var currentPath = "./draft/images/82";
+var currentPath = "./draft/images/83";
 var fileArr = []; // 存储目标文件路径
 
 readDir(currentPath);

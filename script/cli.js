@@ -121,7 +121,7 @@ function dealFile(filePath) {
   }
 
   if (wastebasketIndex > -1) {
-    jjStr = jjStr.replace(/:wastebasket:/g, "");
+    jjStr = jjStr.replace(/:wastebasket:/g, "wastebasket");
   }
 
   if (arrowUpIndex > -1) {
