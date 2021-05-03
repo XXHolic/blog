@@ -3,14 +3,15 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Chrome 请求过滤扩展实现](https://github.com/XXHolic/blog/issues/86)
 - [Chrome 扩展 : 入门](https://github.com/XXHolic/blog/issues/85)
 - [Chrome 扩展 : 扩展是什么?](https://github.com/XXHolic/blog/issues/84)
-- [Chrome 扩展 : 欢迎](https://github.com/XXHolic/blog/issues/83)
 
 ## Chrome Extensions
 - [Chrome 扩展 : 欢迎](https://github.com/XXHolic/blog/issues/83)
 - [Chrome 扩展 : 扩展是什么?](https://github.com/XXHolic/blog/issues/84)
 - [Chrome 扩展 : 入门](https://github.com/XXHolic/blog/issues/85)
+- [Chrome 请求过滤扩展实现](https://github.com/XXHolic/blog/issues/86)
 
 ## Scalable Frontend
 - [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
