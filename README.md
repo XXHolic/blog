@@ -3,9 +3,12 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Learn D3: Introduction](https://github.com/XXHolic/blog/issues/91)
 - [Dependency Injection in Node.js](https://github.com/XXHolic/blog/issues/90)
 - [Dependency Injection](https://github.com/XXHolic/blog/issues/89)
-- [Chrome 请求过滤扩展实现](https://github.com/XXHolic/blog/issues/86)
+
+## Learn D3
+- [Introduction](https://github.com/XXHolic/blog/issues/91)
 
 ## Chrome Extensions
 - [Chrome 扩展 : 欢迎](https://github.com/XXHolic/blog/issues/83)
