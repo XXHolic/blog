@@ -3,14 +3,15 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Learn D3: Scales](https://github.com/XXHolic/blog/issues/95)
 - [Learn D3: Data](https://github.com/XXHolic/blog/issues/94)
 - [Learn D3: By Example](https://github.com/XXHolic/blog/issues/92)
-- [Learn D3: Introduction](https://github.com/XXHolic/blog/issues/91)
 
 ## Learn D3
 - [Learn D3: Introduction](https://github.com/XXHolic/blog/issues/91)
 - [Learn D3: By Example](https://github.com/XXHolic/blog/issues/92)
 - [Learn D3: Data](https://github.com/XXHolic/blog/issues/94)
+- [Learn D3: Scales](https://github.com/XXHolic/blog/issues/95)
 
 ## Chrome Extensions
 - [Chrome 扩展 : 欢迎](https://github.com/XXHolic/blog/issues/83)
