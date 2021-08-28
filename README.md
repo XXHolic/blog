@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Learn D3: Animation](https://github.com/XXHolic/blog/issues/97)
 - [Learn D3: Shapes](https://github.com/XXHolic/blog/issues/96)
 - [Learn D3: Scales](https://github.com/XXHolic/blog/issues/95)
-- [Learn D3: Data](https://github.com/XXHolic/blog/issues/94)
 
 ## Learn D3
 - [Learn D3: Introduction](https://github.com/XXHolic/blog/issues/91)
@@ -13,6 +13,7 @@
 - [Learn D3: Data](https://github.com/XXHolic/blog/issues/94)
 - [Learn D3: Scales](https://github.com/XXHolic/blog/issues/95)
 - [Learn D3: Shapes](https://github.com/XXHolic/blog/issues/96)
+- [Learn D3: Animation](https://github.com/XXHolic/blog/issues/97)
 
 ## Chrome Extensions
 - [Chrome 扩展 : 欢迎](https://github.com/XXHolic/blog/issues/83)
