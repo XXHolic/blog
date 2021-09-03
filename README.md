@@ -3,9 +3,9 @@
 > -《文心雕龙》刘勰
 
 ## 最近更新
+- [Learn D3: Further Topics](https://github.com/XXHolic/blog/issues/100)
 - [Learn D3: Interaction](https://github.com/XXHolic/blog/issues/99)
 - [Learn D3: Joins](https://github.com/XXHolic/blog/issues/98)
-- [Learn D3: Animation](https://github.com/XXHolic/blog/issues/97)
 
 ## Learn D3
 - [Learn D3: Introduction](https://github.com/XXHolic/blog/issues/91)
@@ -16,6 +16,7 @@
 - [Learn D3: Animation](https://github.com/XXHolic/blog/issues/97)
 - [Learn D3: Joins](https://github.com/XXHolic/blog/issues/98)
 - [Learn D3: Interaction](https://github.com/XXHolic/blog/issues/99)
+- [Learn D3: Further Topics](https://github.com/XXHolic/blog/issues/100)
 
 ## Chrome Extensions
 - [Chrome 扩展 : 欢迎](https://github.com/XXHolic/blog/issues/83)
