@@ -24,12 +24,37 @@
 - [Chrome 扩展 : 入门](https://github.com/XXHolic/blog/issues/85)
 - [Chrome 请求过滤扩展实现](https://github.com/XXHolic/blog/issues/86)
 
+## 碰撞检测
+- [Collision Detection](https://github.com/XXHolic/blog/issues/46)
+- [Collision Detection ：Point](https://github.com/XXHolic/blog/issues/59)
+- [Collision Detection ：Rectangle](https://github.com/XXHolic/blog/issues/60)
+- [Collision Detection ：Line](https://github.com/XXHolic/blog/issues/61)
+- [Collision Detection ：Polygon](https://github.com/XXHolic/blog/issues/62)
+- [Collision Detection ：Triangle](https://github.com/XXHolic/blog/issues/63)
+- [Collision Detection ：Transformation](https://github.com/XXHolic/blog/issues/64)
+- [Collision Detection ：Separating Axis Theorem](https://github.com/XXHolic/blog/issues/65)
+
+## 性能
+- [About Performance](https://github.com/XXHolic/blog/issues/47)
+- [Performance Guide](https://github.com/XXHolic/blog/issues/48)
+- [Performance Metrics](https://github.com/XXHolic/blog/issues/49)
+- [About Speed Tools](https://github.com/XXHolic/blog/issues/56)
+
 ## Scalable Frontend
 - [Scalable Frontend 1 — Architecture Fundamentals](https://github.com/XXHolic/blog/issues/78)
 - [Scalable Frontend 2 — Common Patterns](https://github.com/XXHolic/blog/issues/79)
 - [Scalable Frontend 3 —The State Layer](https://github.com/XXHolic/blog/issues/80)
 - [Dependency Injection](https://github.com/XXHolic/blog/issues/89)
 - [Dependency Injection in Node.js](https://github.com/XXHolic/blog/issues/90)
+
+## 前端异常监控
+- [异常监控系统体验分析](https://github.com/XXHolic/blog/issues/66)
+- [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
+- [前端异常示例](https://github.com/XXHolic/blog/issues/68)
+- [Read TraceKit](https://github.com/XXHolic/blog/issues/69)
+- [前端异常解析](https://github.com/XXHolic/blog/issues/70)
+- [前端异常解析：Source Map](https://github.com/XXHolic/blog/issues/71)
+- [前端异常上报](https://github.com/XXHolic/blog/issues/73)
 
 ## 规范参考
 - [10 Common Software Architectural Patterns in a nutshelle](https://github.com/XXHolic/blog/issues/82)
@@ -47,21 +72,6 @@
 - [关于 JavaScript 标准](https://github.com/XXHolic/blog/issues/22)
 - [Web API 初接触](https://github.com/XXHolic/blog/issues/10)
 
-## 性能
-- [About Performance](https://github.com/XXHolic/blog/issues/47)
-- [Performance Guide](https://github.com/XXHolic/blog/issues/48)
-- [Performance Metrics](https://github.com/XXHolic/blog/issues/49)
-- [About Speed Tools](https://github.com/XXHolic/blog/issues/56)
-
-## 碰撞检测
-- [Collision Detection](https://github.com/XXHolic/blog/issues/46)
-- [Collision Detection ：Point](https://github.com/XXHolic/blog/issues/59)
-- [Collision Detection ：Rectangle](https://github.com/XXHolic/blog/issues/60)
-- [Collision Detection ：Line](https://github.com/XXHolic/blog/issues/61)
-- [Collision Detection ：Polygon](https://github.com/XXHolic/blog/issues/62)
-- [Collision Detection ：Triangle](https://github.com/XXHolic/blog/issues/63)
-- [Collision Detection ：Transformation](https://github.com/XXHolic/blog/issues/64)
-- [Collision Detection ：Separating Axis Theorem](https://github.com/XXHolic/blog/issues/65)
 
 ## 概念
 - [CSS Flexible Box Layout](https://github.com/XXHolic/blog/issues/32)
@@ -99,13 +109,6 @@
 - [看书时感兴趣的一些小点记录](https://github.com/XXHolic/blog/issues/8)
 
 
-## 前端异常监控
-- [异常监控系统体验分析](https://github.com/XXHolic/blog/issues/66)
-- [前端异常类型及捕获方式](https://github.com/XXHolic/blog/issues/53)
-- [前端异常示例](https://github.com/XXHolic/blog/issues/68)
-- [Read TraceKit](https://github.com/XXHolic/blog/issues/69)
-- [前端异常解析](https://github.com/XXHolic/blog/issues/70)
-- [前端异常解析：Source Map](https://github.com/XXHolic/blog/issues/71)
-- [前端异常上报](https://github.com/XXHolic/blog/issues/73)
+
 
 
