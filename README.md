@@ -85,6 +85,7 @@
 
 ## 阅读源码
 - [Read TraceKit](https://github.com/XXHolic/blog/issues/69)
+- [Read In Pieces](https://github.com/XXHolic/blog/issues/57)
 - [Read Dva](https://github.com/XXHolic/blog/issues/55)
 - [Read Redux-Saga](https://github.com/XXHolic/blog/issues/54)
 - [Read react-router](https://github.com/XXHolic/blog/issues/51)
