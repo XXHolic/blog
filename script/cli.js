@@ -98,8 +98,8 @@ function dealFile(filePath) {
     bkyStr = bkyStr.replace(/:wastebasket:/g, "");
     const detailsIndex = bkyStr.lastIndexOf("<details>");
     bkyStr = bkyStr.slice(0, detailsIndex);
-      // 最末尾加上 URL
-  bkyStr = bkyStr + addUrl;
+    // 最末尾加上 URL
+    bkyStr = bkyStr + addUrl;
   }
   //不是末尾的 <details> ，文中用到的要转换一下
   if (bkyStr.lastIndexOf("<details>") > -1 && articleIndex !== 10) {
@@ -108,8 +108,6 @@ function dealFile(filePath) {
     bkyStr = bkyStr.replace(/<summary>/g, "");
     bkyStr = bkyStr.replace(/<\/summary>/g, "");
   }
-
-
 
   // 针对 掘金 的格式
   let jjStr = commonDealStr;
@@ -132,6 +130,8 @@ function dealFile(filePath) {
     jjStr = jjStr.replace(new RegExp(replaceStr1, "g"), "");
     jjStr = jjStr.replace(new RegExp(replaceStr2, "g"), "");
   }
+  // 最近掘金多个换行粘贴会被解析为斜杠，多个换行转换为 1 个换行
+  jjStr = jjStr.replace(/[\r\n]+/g, "\r\n");
 
   // 针对 segmentFault CSDN 简书 格式
   let secondStr = jjStr;
@@ -157,19 +157,17 @@ function dealFile(filePath) {
   if (wastebasketIndex > -1) {
     const detailsIndex = secondStr.lastIndexOf("<details>");
     secondStr = secondStr.slice(0, detailsIndex);
-  // 最末尾加上 URL
-  secondStr = secondStr + addUrl;
+    // 最末尾加上 URL
+    secondStr = secondStr + addUrl;
   }
 
   //不是末尾的 <details> ，文中用到的要转换一下
-  if (secondStr.lastIndexOf('<details>') > -1 && articleIndex !== 10){
-    secondStr = secondStr.replace(/<details>/g,'');
-    secondStr = secondStr.replace(/<\/details>/g,'');
-    secondStr = secondStr.replace(/<summary>/g,'');
-    secondStr = secondStr.replace(/<\/summary>/g,'');
+  if (secondStr.lastIndexOf("<details>") > -1 && articleIndex !== 10) {
+    secondStr = secondStr.replace(/<details>/g, "");
+    secondStr = secondStr.replace(/<\/details>/g, "");
+    secondStr = secondStr.replace(/<summary>/g, "");
+    secondStr = secondStr.replace(/<\/summary>/g, "");
   }
-
-
 
   fs.writeFile(`${originFilePath}/${fileName}`, githubStr, dealError);
   fs.writeFile(`${bkyFilePath}/${fileName}`, bkyStr, dealError);
