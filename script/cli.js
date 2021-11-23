@@ -131,7 +131,7 @@ function dealFile(filePath) {
     jjStr = jjStr.replace(new RegExp(replaceStr2, "g"), "");
   }
   // 最近掘金多个换行粘贴会被解析为斜杠，多个换行转换为 1 个换行
-  jjStr = jjStr.replace(/[\r\n]+/g, "\r\n");
+  const jjStrFinal = jjStr.replace(/[\r\n]+/g, "\r\n");
 
   // 针对 segmentFault CSDN 简书 格式
   let secondStr = jjStr;
@@ -171,7 +171,7 @@ function dealFile(filePath) {
 
   fs.writeFile(`${originFilePath}/${fileName}`, githubStr, dealError);
   fs.writeFile(`${bkyFilePath}/${fileName}`, bkyStr, dealError);
-  fs.writeFile(`${jjFilePath}/${fileName}`, jjStr, dealError);
+  fs.writeFile(`${jjFilePath}/${fileName}`, jjStrFinal, dealError);
   fs.writeFile(`${sfFilePath}/${fileName}`, secondStr, dealError);
   console.info(`${fileName}转换成功`);
 }
