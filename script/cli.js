@@ -131,7 +131,8 @@ function dealFile(filePath) {
     jjStr = jjStr.replace(new RegExp(replaceStr2, "g"), "");
   }
   // 最近掘金多个换行粘贴会被解析为斜杠，多个换行转换为 1 个换行
-  const jjStrFinal = jjStr.replace(/[\r\n]+/g, "\r\n");
+  // const jjStrFinal = jjStr.replace(/[\r\n]+/g, "\r\n");
+  const jjStrFinal = jjStr; // 最近修复了，恢复
 
   // 针对 segmentFault CSDN 简书 格式
   let secondStr = jjStr;
