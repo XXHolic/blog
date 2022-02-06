@@ -52,7 +52,7 @@ function dealFile(filePath) {
   const articleIndex = Number(fileNameArr[0]);
   const articleLink = fileNameArr[2];
 
-  const urlPrefix = "https://xxholic.github.io/blog/draft/images";
+  const urlPrefix = "https://xxholic.github.io/blog/draft2/images";
   const addText =
     "\r\n- [Origin][url-origin]\r\n- [My GitHub][url-my-github]\r\n\r\n";
   const addUrl = `\r\n\r\n[url-origin]:https://github.com/XXHolic/blog/issues/${articleLink}\r\n[url-my-github]:https://github.com/XXHolic`;
