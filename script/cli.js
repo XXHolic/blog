@@ -188,10 +188,10 @@ function dealError(err) {
 
 var currentPath = "./draft2"; // 获取当前执行路径
 var fileArr = []; // 存储目标文件路径
-var originFilePath = "./origin";
-var bkyFilePath = "./bky";
-var jjFilePath = "./jj";
-var sfFilePath = "./sf";
+var originFilePath = "./draft2/origin";
+var bkyFilePath = "./draft2/bky";
+var jjFilePath = "./draft2/jj";
+var sfFilePath = "./draft2/sf";
 
 readDir(currentPath);
 traverseFile(fileArr);

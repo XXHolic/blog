@@ -2,10 +2,10 @@
 var fs = require("fs");
 // var path = require("path");
 
-var bkyFilePath = './draft/bky';
-var jjFilePath = './draft/jj';
-var sfFilePath = './draft/sf';
-var originFilePath = './draft/origin';
+var bkyFilePath = "./draft2/bky";
+var jjFilePath = "./draft2/jj";
+var sfFilePath = "./draft2/sf";
+var originFilePath = "./draft2/origin";
 
 function delDir(path){
   let files = [];
