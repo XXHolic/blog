@@ -186,12 +186,12 @@ function dealError(err) {
   }
 }
 
-var currentPath = "./draft"; // 获取当前执行路径
+var currentPath = "./draft2"; // 获取当前执行路径
 var fileArr = []; // 存储目标文件路径
-var originFilePath = "./draft/origin";
-var bkyFilePath = "./draft/bky";
-var jjFilePath = "./draft/jj";
-var sfFilePath = "./draft/sf";
+var originFilePath = "./origin";
+var bkyFilePath = "./bky";
+var jjFilePath = "./jj";
+var sfFilePath = "./sf";
 
 readDir(currentPath);
 traverseFile(fileArr);
