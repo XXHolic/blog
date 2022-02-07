@@ -52,7 +52,7 @@ function dealFile(filePath) {
   const articleIndex = Number(fileNameArr[0]);
   const articleLink = fileNameArr[2];
 
-  const urlPrefix = "https://xxholic.github.io/blog/draft2/images";
+  const urlPrefix = "https://xxholic.github.io/blog/draft/images";
   const addText =
     "\r\n- [Origin][url-origin]\r\n- [My GitHub][url-my-github]\r\n\r\n";
   const addUrl = `\r\n\r\n[url-origin]:https://github.com/XXHolic/blog/issues/${articleLink}\r\n[url-my-github]:https://github.com/XXHolic`;
@@ -131,11 +131,11 @@ function dealFile(filePath) {
     jjStr = jjStr.replace(new RegExp(replaceStr2, "g"), "");
   }
   // 最近掘金多个换行粘贴会被解析为斜杠，多个换行转换为 1 个换行
-  // const jjStrFinal = jjStr.replace(/[\r\n]+/g, "\r\n");
-  const jjStrFinal = jjStr; // 最近修复了，恢复
+  const jjStrCopy = jjStr; //
+  const jjStrFinal = jjStr.replace(/[\r\n]+/g, "\r\n");
 
   // 针对 segmentFault CSDN 简书 格式
-  let secondStr = jjStr;
+  let secondStr = jjStrCopy;
   let secondStrArr = secondStr.split("##");
   let secondStrArrLen = secondStrArr.length;
   // 清除 title 上的 html 标签
@@ -179,19 +179,19 @@ function dealFile(filePath) {
 
 function dealError(err) {
   if (err) {
-    console.info('err',err);
+    console.info("err", err);
     console.error("文件写入失败");
   } else {
     // console.info("文件写入成功");
   }
 }
 
-var currentPath = "./draft2"; // 获取当前执行路径
+var currentPath = "./draft"; // 获取当前执行路径
 var fileArr = []; // 存储目标文件路径
-var originFilePath = "./draft2/origin";
-var bkyFilePath = "./draft2/bky";
-var jjFilePath = "./draft2/jj";
-var sfFilePath = "./draft2/sf";
+var originFilePath = "./draft/origin";
+var bkyFilePath = "./draft/bky";
+var jjFilePath = "./draft/jj";
+var sfFilePath = "./draft/sf";
 
 readDir(currentPath);
 traverseFile(fileArr);
