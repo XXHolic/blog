@@ -52,7 +52,7 @@ function dealFile(filePath) {
   const articleIndex = Number(fileNameArr[0]);
   const articleLink = fileNameArr[2];
 
-  const urlPrefix = "https://xxholic.github.io/blog/draft/images";
+  const urlPrefix = "https://xxholic.github.io/blog/draft2/images";
   const addText =
     "\r\n- [Origin][url-origin]\r\n- [My GitHub][url-my-github]\r\n\r\n";
   const addUrl = `\r\n\r\n[url-origin]:https://github.com/XXHolic/blog/issues/${articleLink}\r\n[url-my-github]:https://github.com/XXHolic`;
@@ -186,12 +186,12 @@ function dealError(err) {
   }
 }
 
-var currentPath = "./draft"; // 获取当前执行路径
+var currentPath = "./draft2"; // 获取当前执行路径
 var fileArr = []; // 存储目标文件路径
-var originFilePath = "./draft/origin";
-var bkyFilePath = "./draft/bky";
-var jjFilePath = "./draft/jj";
-var sfFilePath = "./draft/sf";
+var originFilePath = "./draft2/origin";
+var bkyFilePath = "./draft2/bky";
+var jjFilePath = "./draft2/jj";
+var sfFilePath = "./draft2/sf";
 
 readDir(currentPath);
 traverseFile(fileArr);
