@@ -117,7 +117,6 @@
 - [《黑客和画家》—不能说的话](https://github.com/XXHolic/blog/issues/5)
 - [《简约至上》—什么是简单](https://github.com/XXHolic/blog/issues/2)
 - [《简约至上》思考—为那些用户而设计](https://github.com/XXHolic/blog/issues/1)
-- [看书时感兴趣的一些小点记录](https://github.com/XXHolic/blog/issues/8)
 
 
 
