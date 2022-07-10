@@ -72,26 +72,14 @@
 - [NodeJS and Good Practices](https://github.com/XXHolic/blog/issues/77)
 - [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
 - [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
+- [Git Commit 规范参考](https://github.com/XXHolic/blog/issues/16)
 - [JavaScript 团队规范参考](https://github.com/XXHolic/blog/issues/43)
 - [CSS 团队规范参考](https://github.com/XXHolic/blog/issues/30)
-- [Git Commit 规范参考](https://github.com/XXHolic/blog/issues/16)
-- [Git 常用操作](https://github.com/XXHolic/blog/issues/23)
 - [ESLint Rules](https://github.com/XXHolic/blog/issues/39)
 - [Stylelint rules](https://github.com/XXHolic/segment/issues/51)
 - [JavaScript 语言提议的几个状态](https://github.com/XXHolic/blog/issues/26)
 - [关于 JavaScript 标准](https://github.com/XXHolic/blog/issues/22)
 - [Web API 初接触](https://github.com/XXHolic/blog/issues/10)
-
-
-## 概念
-- [CSS Flexible Box Layout](https://github.com/XXHolic/blog/issues/32)
-- [正则表达式](https://github.com/XXHolic/blog/issues/28)
-- [关于 HTTP](https://github.com/XXHolic/blog/issues/31)
-- [超级微型编译器](https://github.com/XXHolic/blog/issues/24)
-- [屏幕尺寸、像素、分辨率和 devicePixelRatio](https://github.com/XXHolic/blog/issues/11)
-- [事件处理程序](https://github.com/XXHolic/blog/issues/18)
-- [JavaScript 事件](https://github.com/XXHolic/blog/issues/14)
-- [+0 和 -0](https://github.com/XXHolic/blog/issues/27)
 
 ## 阅读源码
 - [Read TraceKit](https://github.com/XXHolic/blog/issues/69)
@@ -105,8 +93,6 @@
 - [Read \_\_webpack_require__](https://github.com/XXHolic/blog/issues/41)
 - [Read Lodash ：cloneDeep](https://github.com/XXHolic/blog/issues/40)
 - [Read Redux](https://github.com/XXHolic/blog/issues/37)
-- [Read React ：Component](https://github.com/XXHolic/blog/issues/38)
-
 
 ## 书籍
 - [How to read](https://github.com/XXHolic/blog/issues/45)
