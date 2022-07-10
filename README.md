@@ -16,23 +16,26 @@
 - [绘制轨迹](https://github.com/XXHolic/blog/issues/105)
 - [随机重置](https://github.com/XXHolic/blog/issues/106)
 
-
-## Learn D3
-- [Learn D3: Introduction](https://github.com/XXHolic/blog/issues/91)
-- [Learn D3: By Example](https://github.com/XXHolic/blog/issues/92)
-- [Learn D3: Data](https://github.com/XXHolic/blog/issues/94)
-- [Learn D3: Scales](https://github.com/XXHolic/blog/issues/95)
-- [Learn D3: Shapes](https://github.com/XXHolic/blog/issues/96)
-- [Learn D3: Animation](https://github.com/XXHolic/blog/issues/97)
-- [Learn D3: Joins](https://github.com/XXHolic/blog/issues/98)
-- [Learn D3: Interaction](https://github.com/XXHolic/blog/issues/99)
-- [Learn D3: Further Topics](https://github.com/XXHolic/blog/issues/100)
-
 ## Chrome Extensions
 - [Chrome 扩展 : 欢迎](https://github.com/XXHolic/blog/issues/83)
 - [Chrome 扩展 : 扩展是什么?](https://github.com/XXHolic/blog/issues/84)
 - [Chrome 扩展 : 入门](https://github.com/XXHolic/blog/issues/85)
 - [Chrome 请求过滤扩展实现](https://github.com/XXHolic/blog/issues/86)
+
+## 规范参考
+- [10 Common Software Architectural Patterns in a nutshelle](https://github.com/XXHolic/blog/issues/82)
+- [The Clean Architecture](https://github.com/XXHolic/blog/issues/81)
+- [NodeJS and Good Practices](https://github.com/XXHolic/blog/issues/77)
+- [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
+- [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
+- [Git Commit 规范参考](https://github.com/XXHolic/blog/issues/16)
+- [JavaScript 团队规范参考](https://github.com/XXHolic/blog/issues/43)
+- [CSS 团队规范参考](https://github.com/XXHolic/blog/issues/30)
+- [ESLint Rules](https://github.com/XXHolic/blog/issues/39)
+- [Stylelint rules](https://github.com/XXHolic/segment/issues/51)
+- [JavaScript 语言提议的几个状态](https://github.com/XXHolic/blog/issues/26)
+- [关于 JavaScript 标准](https://github.com/XXHolic/blog/issues/22)
+- [Web API 初接触](https://github.com/XXHolic/blog/issues/10)
 
 ## 碰撞检测
 - [Collision Detection](https://github.com/XXHolic/blog/issues/46)
@@ -66,21 +69,6 @@
 - [前端异常解析：Source Map](https://github.com/XXHolic/blog/issues/71)
 - [前端异常上报](https://github.com/XXHolic/blog/issues/73)
 
-## 规范参考
-- [10 Common Software Architectural Patterns in a nutshelle](https://github.com/XXHolic/blog/issues/82)
-- [The Clean Architecture](https://github.com/XXHolic/blog/issues/81)
-- [NodeJS and Good Practices](https://github.com/XXHolic/blog/issues/77)
-- [The Single Responsibility Principle](https://github.com/XXHolic/blog/issues/76)
-- [Git 工作流规范参考](https://github.com/XXHolic/blog/issues/52)
-- [Git Commit 规范参考](https://github.com/XXHolic/blog/issues/16)
-- [JavaScript 团队规范参考](https://github.com/XXHolic/blog/issues/43)
-- [CSS 团队规范参考](https://github.com/XXHolic/blog/issues/30)
-- [ESLint Rules](https://github.com/XXHolic/blog/issues/39)
-- [Stylelint rules](https://github.com/XXHolic/segment/issues/51)
-- [JavaScript 语言提议的几个状态](https://github.com/XXHolic/blog/issues/26)
-- [关于 JavaScript 标准](https://github.com/XXHolic/blog/issues/22)
-- [Web API 初接触](https://github.com/XXHolic/blog/issues/10)
-
 ## 阅读源码
 - [Read TraceKit](https://github.com/XXHolic/blog/issues/69)
 - [Read In Pieces](https://github.com/XXHolic/blog/issues/57)
@@ -93,6 +81,18 @@
 - [Read \_\_webpack_require__](https://github.com/XXHolic/blog/issues/41)
 - [Read Lodash ：cloneDeep](https://github.com/XXHolic/blog/issues/40)
 - [Read Redux](https://github.com/XXHolic/blog/issues/37)
+
+## Learn D3
+- [Learn D3: Introduction](https://github.com/XXHolic/blog/issues/91)
+- [Learn D3: By Example](https://github.com/XXHolic/blog/issues/92)
+- [Learn D3: Data](https://github.com/XXHolic/blog/issues/94)
+- [Learn D3: Scales](https://github.com/XXHolic/blog/issues/95)
+- [Learn D3: Shapes](https://github.com/XXHolic/blog/issues/96)
+- [Learn D3: Animation](https://github.com/XXHolic/blog/issues/97)
+- [Learn D3: Joins](https://github.com/XXHolic/blog/issues/98)
+- [Learn D3: Interaction](https://github.com/XXHolic/blog/issues/99)
+- [Learn D3: Further Topics](https://github.com/XXHolic/blog/issues/100)
+
 
 ## 书籍
 - [How to read](https://github.com/XXHolic/blog/issues/45)
