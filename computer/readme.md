@@ -2,7 +2,9 @@
 对于电脑 DIY 这块一直很好奇，花时间了解一下相关知识点。
 
 ## 目前选择
-### CPU
+
+
+### <a name="cpu"></a> CPU
 R9 5900X，购买[链接][url-buy-1]。
 ![main-1][url-loca-1]
 
@@ -17,7 +19,7 @@ R9 5900X，购买[链接][url-buy-1]。
 ![main-2][url-loca-2]
 
 - PCI Express4.0 x16 * 2
-- 版型大小 30.5cm * 24.4cm、电源接口 24+12
+- 版型标准型（atx）大小 30.5cm * 24.4cm、电源接口 24+12
 - 电源接口 24+12
 - 内存 DDR4、3800、4 插槽
 - USB 扩展 3 组、系统风扇插座 3 组
@@ -37,17 +39,45 @@ R9 5900X，购买[链接][url-buy-1]。
 ![main-3][url-loca-3]
 
 - 电源接口 3*8pin 、750w 及以上
-- 31*13.15*59cm
-- 3*DP+1*HDMI，显示器接这里。
+- 310 * 131.5 * 59mm
+- 3 * DP + 1 * HDMI，显示器接这里。
 - 价格 5800 左右。
 
+### 散热器
+利民（Thermalright）Frozen Magic 360，购买[链接][url-buy-5]。
 
+![main-4][url-loca-4]
 
-- 硬盘：NVMe PCIe4.0，三星 980Pro，价格 1200 。
-- 散热：水冷，FM360 Frozen Magic 360，价格 600 。
-- 电源：海韵 1000W 或振华 1000w，最高价格 1400。
-- 机箱：
+- 尺寸 120*120*25mm
+- 价格 550 左右。
 
+### 硬盘
+三星 980Pro 散热片装，购买[链接][url-buy-6]。
+
+![main-5][url-loca-5]
+
+- PCIe4.0 1TB
+- 长80mm；宽24mm；高8.6mm
+- 价格 1200 左右
+
+### 电源
+振华 1000W LEADEX G 1000 电源，购买[链接][url-buy-7]。
+
+![main-6][url-loca-6]
+
+- 200 * 150 * 86 mm
+- 价格 1200 左右
+
+### 机箱
+爱国者 YOGO K200黑色防尘机箱，购买[链接][url-buy-8]。
+
+![main-7][url-loca-7]
+
+![main-8][url-loca-8]
+
+- 468 * 233 * 493mm
+- 电源 ATX 电源
+- 价格 380 左右
 
 
 [url-1]:https://www.amd.com/zh-hans/products/cpu/amd-ryzen-9-5900x
@@ -57,7 +87,16 @@ R9 5900X，购买[链接][url-buy-1]。
 [url-buy-2]:https://item.m.jd.com/product/100003815417.html?utm_user=plusmember&gx=RnFly2ZQO2CPzNRP--txWXC0XC8Q30TBJhOs&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL
 [url-buy-3]:https://item.m.jd.com/product/100019638706.html?utm_user=plusmember&gx=RnFly2ZQO2CPzNRP--txWXC0XC8Q30TBJhOs&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL
 [url-buy-4]:https://item.m.jd.com/product/100022410402.html?utm_user=plusmember&gx=RnFly2ZQO2CPzNRP--txWXC0XC8Q30TBJhOs&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL
+[url-buy-5]:https://item.m.jd.com/product/100016170468.html?utm_user=plusmember&gx=RnFly2ZQO2CPzNRP--txWXC0XC8Q30TBJhOs&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL
+[url-buy-6]:https://item.m.jd.com/product/100030061620.html?utm_user=plusmember&gx=RnFly2ZQO2CPzNRP--txWXC0XC8Q30TBJhOs&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL
+[url-buy-7]:https://item.m.jd.com/product/5084714.html?utm_user=plusmember&gx=RnFly2ZQO2CPzNRP--txWXC0XC8Q30TBJhOs&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL
+[url-buy-8]:https://item.m.jd.com/product/100034383970.html?utm_user=plusmember&gx=RnFly2ZQO2CPzNRP--txWXC0XC8Q30TBJhOs&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL
 
 [url-loca-1]:./images/cpu.png
 [url-loca-2]:./images/mainboard.png
 [url-loca-3]:./images/graphics.png
+[url-loca-4]:./images/sanre.png
+[url-loca-5]:./images/storage.png
+[url-loca-6]:./images/power.png
+[url-loca-7]:./images/box.png
+[url-loca-8]:./images/box-show.png
