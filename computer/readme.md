@@ -79,6 +79,11 @@ R9 5900X，购买[链接][url-buy-1]。
 - 电源 ATX 电源
 - 价格 380 左右
 
+## 视频录制
+软件使用 OBS（Open Broadcaster Software）
+
+圆钢 GC553 ，价格 1430 左右。
+
 
 [url-1]:https://www.amd.com/zh-hans/products/cpu/amd-ryzen-9-5900x
 [url-2]:https://www.asus.com.cn/Motherboards-Components/Motherboards/PRIME/PRIME-X570-PRO/techspec/

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>游戏配置</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+    .table th,
+    .table td {
+      padding: 4px 6px;
+    }
+    .table .column-top {
+      vertical-align: top;
+    }
+    .column-lowest-row1 {
+      border-bottom: 1px solid #f2f2f2;
+      text-align: center;
+    }
+    .column-lowest-row2 {
+      display: flex;
+    }
+    .flex1 {
+      flex: 1;
+    }
+    .list-item {
+      min-width: 250px;
+      word-break: break-all;
+    }
+  </style>
+  <body>
+    <table class="table" border="1">
+      <thead>
+        <tr>
+          <th>统计</th>
+          <th>名称</th>
+          <th>存储空间</th>
+          <th colspan="3">
+            <div class="column-lowest-row1">最低配置</div>
+            <div class="column-lowest-row2">
+              <div class="flex1">处理器</div>
+              <div class="flex1">显卡</div>
+              <div class="column-memory">内存</div>
+            </div>
+          </th>
+          <th colspan="3">
+            <div class="column-lowest-row1">推荐配置</div>
+            <div class="column-lowest-row2">
+              <div class="flex1">处理器</div>
+              <div class="flex1">显卡</div>
+              <div class="column-memory">内存</div>
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody id="list"></tbody>
+    </table>
+
+    <script>
+      const gameList = [
+        {
+          name: "底特律：化身为人",
+          poster: "./images/game.1.jpg",
+          steamUrl: "https://store.steampowered.com/app/1222140/_/",
+          epicUrl: "https://store.epicgames.com/zh-CN/p/detroit-become-human",
+          system: "Windows 10 (64 bit)",
+          storage: "55GB",
+          lowest: {
+            cpu: "Intel Core i5-2300 @ 2.8 GHz or AMD Ryzen 3 1200 @ 3.1GHz or AMD FX-8350 @ 4.2GHz",
+            memory: "8GB",
+            graphics:
+              "Nvidia GeForce GTX 780 or AMD HD 7950 with 3GB VRAM minimum (Support of Vulkan 1.1 required)",
+          },
+          recommend: {
+            cpu: "Intel Core i5-6600 @ 3.3 GHz or AMD Ryzen 3 1300 X @ 3.4 GHz",
+            memory: "12GB",
+            graphics:
+              "Nvidia GeForce GTX 1060 or AMD Radeon RX 580 with 4GB VRAM minimum (Support of Vulkan 1.1 required)",
+          },
+        },
+        {
+          name: "巫师 3：狂猎",
+          storage: "35GB",
+          lowest: {
+            cpu: "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
+            memory: "6GB",
+            graphics: "Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870",
+          },
+          recommend: {
+            cpu: " Intel CPU Core i7 3770 3.4 GHz / AMD CPU AMD FX-8350 4 GHz",
+            memory: "8GB",
+            graphics: "Nvidia GPU GeForce GTX 770 / AMD GPU Radeon R9 290",
+          },
+        },
+        {
+          name: "Red Dead Redemption 2",
+          storage: "150GB",
+          lowest: {
+            cpu: "Intel(R) Core(TM) i5-2500K / AMD FX-6300",
+            memory: "8GB",
+            graphics: "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+          },
+          recommend: {
+            cpu: "Intel(R) Core(TM) i7-4770K / AMD Ryzen 5 1500x",
+            memory: "12GB",
+            graphics: "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+          },
+        },
+        {
+          name: "GTA 5",
+          storage: "72GB",
+          lowest: {
+            cpu: "Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 个 CPU) / AMD Phenom 9850 Quad-Core 处理器 (4 个 CPU) @ 2.5GHz",
+            memory: "4GB",
+            graphics: "NVIDIA 9800 GT 1GB / AMD HD 4870 1GB",
+          },
+          recommend: {
+            cpu: "Intel Core i5 3470 @ 3.2GHZ (4 个 CPU) / AMD X8 FX-8350 @ 4GHZ (8 个 CPU)",
+            memory: "8GB",
+            graphics: "NVIDIA GTX 660 2GB / AMD HD7870 2GB",
+          },
+        },
+        {
+          name: "刺客信条：奥赛德",
+          storage: "46+GB",
+          lowest: {
+            cpu: "AMD FX 6300 @ 3.8 GHz / AMD Ryzen 3 - 1200 / Intel Core i5 2400 @ 3.1 GHz",
+            memory: "8GB",
+            graphics: "AMD Radeon R9 285 / NVIDIA GeForce GTX 660 (2GB VRAM with Shader Model 5.0)",
+          },
+          recommend: {
+            cpu: "AMD FX-8350 @ 4.0 GHz / AMD Ryzen 5 - 1400 / Intel Core i7-3770 @ 3.5 GHz or better ",
+            memory: "8GB",
+            graphics: "AMD Radeon R9 290 / NVIDIA GeForce GTX 970 (4GB VRAM with Shader Model 5.0) or better",
+          },
+        },
+        {
+          name: "古墓丽影：崛起",
+          storage: "25GB",
+          lowest: {
+            cpu: "Intel Core i3-2100 或 AMD 同等产品",
+            memory: "6GB",
+            graphics: "NVIDIA GTX 650 2GB or AMD HD7770 2GB",
+          },
+          recommend: {
+            cpu: "Intel Core i7-3770K",
+            memory: "8GB",
+            graphics: "NVIDIA GTX 980Ti 2560x1440 or NVIDIA GTX 970 1920x1080",
+          },
+        },
+        {
+          name: "艾尔登法环",
+          storage: "60GB",
+          lowest: {
+            cpu: "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+            memory: "12GB",
+            graphics: "NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB",
+          },
+          recommend: {
+            cpu: "INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+            memory: "16GB",
+            graphics: "NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB",
+          },
+        },
+        {
+          name: "NBA 2K23",
+          storage: "110GB",
+          lowest: {
+            cpu: "Intel® Core™ i3-2100 @ 3.10 GHz/ AMD FX-4100 @ 3.60 GHz or better",
+            memory: "4GB",
+            graphics: "NVIDIA® GeForce® GT 450 1GB/ ATI® Radeon™ HD 7770 1 GB or better",
+          },
+          recommend: {
+            cpu: "Intel® Core™ i5-4430 @ 3 GHz/ AMD FX-8370 @ 3.4 GHz or better",
+            memory: "8GB",
+            graphics: "NVIDIA® GeForce® GTX 770 2GB/ ATI® Radeon™ R9 270 2GB or better",
+          },
+        },
+        {
+          name: "Sekiro™: Shadows Die Twice",
+          storage: "25GB",
+          lowest: {
+            cpu: "Intel Core i3-2100 / AMD FX-6300",
+            memory: "4GB",
+            graphics: "NVIDIA GeForce GTX 760 / AMD Radeon HD 7950",
+          },
+          recommend: {
+            cpu: "Intel Core i5-2500K / AMD Ryzen 5 1400",
+            memory: "8GB",
+            graphics: "NVIDIA GeForce GTX 970 / AMD Radeon RX 570",
+          },
+        },
+        {
+          name: "命运2",
+          storage: "105GB",
+          lowest: {
+            cpu: " Intel® Core™ i3 3250 3.5 GHz or Intel Pentium G4560 3.5 GHz / AMD FX-4350 4.2 GHz",
+            memory: "6GB",
+            graphics: "NVIDIA® GeForce® GTX 660 2GB or GTX 1050 2GB / AMD Radeon HD 7850 2GB",
+          },
+          recommend: {
+            cpu: "Intel® Core™ i5 2400 3.4 GHz or i5 7400 3.5 GHz / AMD Ryzen R5 1600X 3.6 GHz",
+            memory: "8GB",
+            graphics: "NVIDIA® GeForce® GTX 970 4GB or GTX 1060 6GB / AMD R9 390 8GB Memory 8 GB RAM",
+          },
+        },
+        {
+          name: "HITMAN 3",
+          storage: "60GB",
+          lowest: {
+            cpu: " Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
+            memory: "8GB",
+            graphics: "NVIDIA GeForce GTX 660 / Radeon HD 7870",
+          },
+          recommend: {
+            cpu: "Intel CPU Core i7 4790 4 GHz",
+            memory: "16GB",
+            graphics: "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
+          },
+        },
+        {
+          name: "赛博朋克 2077",
+          storage: "70GB",
+          lowest: {
+            cpu: "Intel Core i5-3570K or AMD FX-8310",
+            memory: "8GB",
+            graphics: "NVIDIA GeForce GTX 970 or AMD Radeon RX 470",
+          },
+          recommend: {
+            cpu: "Intel Core i7-4790 or AMD Ryzen 3 3200G",
+            memory: "12GB",
+            graphics: "GTX 1060 6GB / GTX 1660 Super or Radeon RX 590",
+          },
+        },
+        {
+          name: "METAL GEAR SURVIVE",
+          storage: "20GB",
+          lowest: {
+            cpu: "Intel Core i5-4460 (3.40 GHz) or better; Quad-core or better",
+            memory: "4GB",
+            graphics: "NVIDIA GeForce GTX 650 (2GB) or better (DirectX 11 card Required)",
+          },
+          recommend: {
+            cpu: "Intel Core i7-4790 (3.60GHz) or better;",
+            memory: "8GB",
+            graphics: "NVIDIA GeForce GTX 960 (DirectX 11 graphic card required)",
+          },
+        },
+        {
+          name: "Devil May Cry 5",
+          storage: "35GB",
+          lowest: {
+            cpu: "Intel® Core™ i5-4460, AMD FX™-6300, or better",
+            memory: "8GB",
+            graphics: "NVIDIA® GeForce® GTX 760 or AMD Radeon™ R7 260x with 2GB Video RAM, or better",
+          },
+          recommend: {
+            cpu: "Intel® Core™ i7-3770, AMD FX™-9590, or better",
+            memory: "8GB",
+            graphics: "NVIDIA® GeForce® GTX 1060 with 6GB VRAM, AMD Radeon™ RX 480 with 8GB VRAM, or better",
+          },
+        },
+        {
+          name: "FIFA 23",
+          storage: "100GB",
+          lowest: {
+            cpu: "Intel Core i5 6600k or AMD Ryzen 5 1600",
+            memory: "8GB",
+            graphics: "NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 570",
+          },
+          recommend: {
+            cpu: "Intel Core i7 6700 or AMD Ryzen 7 2700X",
+            memory: "12GB",
+            graphics: "NVIDIA GeForce GTX 1660 or AMD Radeon RX 5600 XT",
+          },
+        },
+        {
+          name: "Mortal Kombat 11",
+          storage: "--GB",
+          lowest: {
+            cpu: "Intel Core i5-750, 2.66 GHz / AMD Phenom II X4 965, 3.4 GHz or AMD Ryzen™ 3 1200, 3.1 GHz",
+            memory: "8GB",
+            graphics: "NVIDIA® GeForce™ GTX 670 or NVIDIA® GeForce™ GTX 1050 / AMD® Radeon™ HD 7950 or AMD® Radeon™ R9 270",
+          },
+          recommend: {
+            cpu: "Intel Core i5-2300, 2.8 GHz / AMD FX-6300, 3.5GHz or AMD Ryzen™ 5 1400, 3.2 GHz",
+            memory: "8GB",
+            graphics: "NVIDIA® GeForce™ GTX 780 or NVIDIA® GeForce™ GTX 1060-6GB / AMD® Radeon™ R9 290 or RX 570",
+          },
+        },
+        {
+          name: "NieR Replicant",
+          storage: "26GB",
+          lowest: {
+            cpu: "AMD Ryzen™ 3 1300X; Intel® Core™ i5-6400",
+            memory: "8GB",
+            graphics: "AMD Radeon™ R9 270X; NVIDIA® GeForce® GTX 960",
+          },
+          recommend: {
+            cpu: "AMD Ryzen™ 3 1300X; Intel® Core™ i5-6400",
+            memory: "16GB",
+            graphics: "AMD Radeon™ RX Vega 56; NVIDIA® GeForce® GTX 1660",
+          },
+        },
+        {
+          name: "DEATH STRANDING ",
+          storage: "80GB",
+          lowest: {
+            cpu: "Intel® Core™ i5-3470 or AMD Ryzen™ 3 1200",
+            memory: "8GB",
+            graphics: "AMD Radeon™ R9 270X; NVIDIA® GeForce® GTX 960",
+          },
+          recommend: {
+            cpu: "Intel™ Core i7-3770 or AMD Ryzen™ 5 1600",
+            memory: "8GB",
+            graphics: "GeForce GTX 1060 6 GB or AMD Radeon™ RX 590",
+          },
+        },
+        {
+          name: "战神",
+          storage: "70GB",
+          lowest: {
+            cpu: "Intel i5-2500k（4 核 3.3 GHz）or AMD Ryzen 3 1200（4 核 3.1 GHz）",
+            memory: "8GB",
+            graphics: "NVIDIA GTX 960（4 GB）or AMD R9 290X（4 GB）",
+          },
+          recommend: {
+            cpu: "Intel i5-6600k（4 核 3.5 GHz）or AMD Ryzen 5 2400 G（4 核 3.6 GHz）",
+            memory: "8GB",
+            graphics: "NVIDIA GTX 1060 (6 GB) or AMD RX 570 (4 GB)",
+          },
+        },
+        {
+          name: "漫威蜘蛛侠 重制版",
+          storage: "75GB",
+          lowest: {
+            cpu: "Intel Core i3-4160 3.6 GHz or AMD 同等产品",
+            memory: "8GB",
+            graphics: "NVIDIA GTX 950 or AMD Radeon RX 470",
+          },
+          recommend: {
+            cpu: "Intel Core i5-4670 3.4 GHz or AMD Ryzen 5 1600 3.2 GHz",
+            memory: "16GB",
+            graphics: "NVIDIA GTX 1060 6 GB or AMD Radeon RX 580 8 GB",
+          },
+        },
+        {
+          name: "极限竞速：地平线 5",
+          storage: "110GB",
+          lowest: {
+            cpu: "Intel i5-4460 or AMD Ryzen 3 1200",
+            memory: "8GB",
+            graphics: "NVidia GTX 970 OR AMD RX 470",
+          },
+          recommend: {
+            cpu: "Intel i5-8400 or AMD Ryzen 5 1500X",
+            memory: "16GB",
+            graphics: "NVidia GTX 1070 OR AMD RX 590",
+          },
+        },
+        {
+          name: "战地风云™ 2042",
+          storage: "100GB",
+          lowest: {
+            cpu: "AMD Ryzen 5 1600/ Core i5 6600K",
+            memory: "8GB",
+            graphics: "AMD Radeon RX 560,Nvidia GeForce GTX 1050 Ti",
+          },
+          recommend: {
+            cpu: "AMD Ryzen 7 2700X/Intel Core i7 4790",
+            memory: "16GB",
+            graphics: "AMD Radeon RX 6600 XT/Nvidia GeForce RTX 3060",
+          },
+        },
+        {
+          name: "Fallout 4",
+          storage: "30GB",
+          lowest: {
+            cpu: "Intel Core i5-2300 2.8 GHz/AMD Phenom II X4 945 3.0 GHz ",
+            memory: "8GB",
+            graphics: "NVIDIA GTX 550 Ti 2GB/AMD Radeon HD 7870 2GB ",
+          },
+          recommend: {
+            cpu: "Intel Core i7 4790 3.6 GHz/AMD FX-9590 4.7 GHz ",
+            memory: "8GB",
+            graphics: "NVIDIA GTX 780 3GB/AMD Radeon R9 290X 4GB ",
+          },
+        },
+        {
+          name: "Life is Strange: True Colors",
+          storage: "30GB",
+          lowest: {
+            cpu: "AMD Phenom II X4 965, 3.40 GHz / Intel Core i5-2300, 2.80 GHz ",
+            memory: "6GB",
+            graphics: "Radeon HD 7790, 2 GB / GeForce GTX 750Ti, 2 GB ",
+          },
+          recommend: {
+            cpu: "AMD FX-8350, 4.00 GHz / Intel Core i5-3470, 3.20 GHz",
+            memory: "8GB",
+            graphics: "Radeon RX 590, 8 GB / GeForce GTX 1060, 6 GB ",
+          },
+        },
+        {
+          name: "Sifu",
+          storage: "22GB",
+          lowest: {
+            cpu: "AMD FX-4350 or Intel Core i5-3470 ",
+            memory: "8GB",
+            graphics: "Radeon R7 250 or GeForce GT 640 ",
+          },
+          recommend: {
+            cpu: "AMD FX-9590 or Intel Core i7-6700K ",
+            memory: "10GB",
+            graphics: "GeForce GTX 970 or Radeon R9 390X  ",
+          },
+        },
+        {
+          name: "小缇娜的奇幻之地",
+          storage: "75GB",
+          lowest: {
+            cpu: "AMD FX-8350 / Intel i5-3570",
+            memory: "6GB",
+            graphics: "AMD Radeon RX470 / NVIDIA GeForce GTX 960 4 GB",
+          },
+          recommend: {
+            cpu: "AMD Ryzen™ 5 2600 / Intel i7-4770",
+            memory: "16GB",
+            graphics: "AMD Radeon™ RX 590 8 GB / NVIDIA GeForce GTX 1060 6 GB",
+          },
+        },
+        {
+          name: "FINAL FANTASY",
+          storage: "100GB",
+          lowest: {
+            cpu: "Intel Core i5 3330 / AMD FX-8350",
+            memory: "8GB",
+            graphics: "GeForce GTX 780 / Radeon RX 480 ",
+          },
+          recommend: {
+            cpu: "Intel Core i7-3770 / AMD Ryzen 3 3100",
+            memory: "12GB",
+            graphics: "GeForce GTX 1080 / Radeon RX 5700 （8GB VRAM）",
+          },
+        },
+        {
+          name: "Total War: WARHAMMER III",
+          storage: "120GB",
+          lowest: {
+            cpu: "Intel i3/Ryzen 3 series",
+            memory: "6GB",
+            graphics: "Nvidia GTX 900/AMD RX 400 series / Intel Iris Xe Graphics",
+          },
+          recommend: {
+            cpu: "Intel i5/Ryzen 5 series",
+            memory: "8GB",
+            graphics: "Nvidia GeForce GTX 1660 Ti/AMD RX 5600-XT",
+          },
+        },
+        {
+          name: "地平线 零之曙光",
+          storage: "100GB",
+          lowest: {
+            cpu: "Intel Core i5-2500K@3.3GHz/AMD FX 6300@3.5GHz",
+            memory: "8GB",
+            graphics: "Nvidia GeForce GTX 780 (3GB)/AMD Radeon R9 290 (4GB)",
+          },
+          recommend: {
+            cpu: "Intel Core i7-4770K@3.5GHz/Ryzen 5 1500X@3.5GHz",
+            memory: "16GB",
+            graphics: "Nvidia GeForce GTX 1060 (6GB)/AMD Radeon RX 580 (8GB)",
+          },
+        },
+        {
+          name: "漫威银河护卫队",
+          storage: "150GB",
+          lowest: {
+            cpu: "AMD Ryzen™ 5 1400 / Intel® Core™ i5-4460",
+            memory: "8GB",
+            graphics: "NVIDIA® GeForce® GTX 1060 / AMD Radeon™ RX 570",
+          },
+          recommend: {
+            cpu: "AMD Ryzen™ 5 1600 / Intel® Core™ i7-4790",
+            memory: "16GB",
+            graphics: "NVIDIA® GeForce® GTX 1660 Super / AMD Radeon™ RX 590",
+          },
+        },
+      ];
+
+      window.onload = () => {
+        const container = document.querySelector("#list");
+        const listItem = gameList.reduce((acc, cur, index) => {
+          const {
+            name,
+            poster,
+            system,
+            storage,
+            lowest = {},
+            recommend = {},
+          } = cur;
+          const { cpu: cpuLT, graphics: graphicsLT, memory: memoryL } = lowest;
+          const {
+            cpu: cpuRT,
+            graphics: graphicsRT,
+            memory: memoryR,
+          } = recommend;
+          const reg = /\sor\s/g;
+          const reg2 = /\//g;
+          let cpuL = cpuLT.replace(reg2, "<br />");
+          cpuL = cpuL.replace(reg, "<br />");
+          let graphicsL = graphicsLT.replace(reg2, "<br />");
+          graphicsL = graphicsL.replace(reg, "<br />");
+          let cpuR = cpuRT.replace(reg2, "<br />");
+           cpuR = cpuR.replace(reg, "<br />");
+          let graphicsR = graphicsRT.replace(reg2, "<br />");
+          graphicsR = graphicsR.replace(reg, "<br />");
+          acc += `<tr>
+              <td>${index + 1}</td>
+              <td>${name}</td>
+              <td>${storage}</td>
+              <td class="column-top"><div class="list-item">${cpuL}</div></td>
+              <td class="column-top"><div class="list-item">${graphicsL}</div></td>
+              <td>${memoryL}</td>
+              <td class="column-top"><div class="list-item">${cpuR}</div></td>
+              <td class="column-top"><div class="list-item">${graphicsR}</div></td>
+              <td>${memoryR}</td>
+            </tr>`;
+          return acc
+        }, "");
+        container.innerHTML = listItem;
+      };
+    </script>
+  </body>
+</html>
