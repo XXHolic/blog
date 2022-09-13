@@ -238,12 +238,38 @@ C 大调练习好了后，接着可以换调练习。
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
 ## <a name="part6"></a> 拍号
+拍号表达形式跟分数一样：X/Y ，含义是以 **Y** 分音符（的时长）为一拍，每小节有 **X** 拍（的时长）。
 
+定义中括号内容是为了方便理解加的补充说明。接下来分解这个定义里面的主要内容。
 
+### Y 分音符
+在乐谱里面除了有音符，还需要表示这个音会持续多长时间。下面以 1 举例看看不同时长的 1 该如何表示。
 
+![music-theory-18][url-local-18]
 
+- 右边的小矩形是为了方便对比查看，独一个小矩形表示一个时间单位，可以是任何时长，看具体的情景。
+- 可以发现都是除以 2 的关系减少，所以对应小矩形也会变化。
+- 这里列出的是常用的几种时长形式。全音符往上就是乘以 2 ，叫倍全音符，实际用的很少。三十二分音符往下也用的很少。
+- 由于国内外用语习惯，沟通的时候表达可能不同，所以沟通的时候最好说明一下。
 
+### 一拍
+拍是音乐中的一个时长单位，并不是绝对的时间。
 
+如果是以四分音符的时长为一拍，那么对应上面的小矩形含义如下：
+
+![music-theory-19][url-local-19]
+
+如果以八分音符的时长为一拍，那么对应小矩形含义如下：
+
+![music-theory-20][url-local-20]
+
+### 小节
+
+![music-theory-21][url-local-21]
+
+- 红色框柱的就是**小节线**。蓝色框柱的就是**终止线**。
+- 小节线之间的就是**小节**，上面只是标了几个例子。
+- 小节线目的：1、“均分”每一个小节，让每一个小节的拍数一致；2 预示强弱关系，这个后面再细讲。
 
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
@@ -269,3 +295,10 @@ C 大调练习好了后，接着可以换调练习。
 [url-local-15]:./images/music-theory.15.png
 [url-local-16]:./images/music-theory.16.png
 [url-local-17]:./images/music-theory.17.png
+[url-local-18]:./images/music-theory.18.png
+[url-local-19]:./images/music-theory.19.png
+[url-local-20]:./images/music-theory.20.png
+[url-local-21]:./images/music-theory.21.png
+
+
+播放器按钮元素： .bpx-player-state-wrap
