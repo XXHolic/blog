@@ -14,6 +14,9 @@
   - [首调和固定调](#part4-4)
   - [原调/移调/转调/离调](#part4-5)
 - [可以做的实践练习1](#part5)
+- [拍号](#part6)
+- [附点/延音线/连线](#part7)
+- [休止符](#part8)
 - [参考资料](#reference)
 ## <a name="start"></a> 引子
 已经自学电吉他一段时间了，对乐理有了基础的了解，发现需要单独的再次整理确认一些概念。
@@ -237,7 +240,7 @@ C 大调练习好了后，接着可以换调练习。
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
 ## <a name="part6"></a> 拍号
-拍号表达形式跟分数一样：X/Y ，含义是以 **Y** 分音符（的时长）为一拍，每小节有 **X** 拍（的时长）。
+拍号表达形式跟分数一样：X/Y ，含义是以 **Y** 分音符（的时长）为一拍，每小节有 **X** 拍（的时长）。这里 X 是正整数， Y 一定是 2<sup>n</sup>(n >= 1)。
 
 定义中括号内容是为了方便理解加的补充说明。接下来分解这个定义里面的主要内容。
 
@@ -262,6 +265,13 @@ C 大调练习好了后，接着可以换调练习。
 
 ![music-theory-20][url-local-20]
 
+在乐谱中有些时候看到两个音符下面是连在一起的，如下图：
+
+![music-theory-28][url-local-28]
+
+- 这个并不是表示两个音之后就停顿。
+- 这个是为了乐谱简洁明了，将一拍以内的音符，下方有横线的连在一起。
+
 ### 小节
 
 ![music-theory-21][url-local-21]
@@ -273,6 +283,54 @@ C 大调练习好了后，接着可以换调练习。
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
+## <a name="part7"></a> 附点/延音线/连线
+上面讲到了部分常用的音符，如果需要类似 1.5 拍的音符该如何表示呢？这个时候就要用到附点。
+
+**附点**：延长前面音符本身时值的一半。表示方式是在音符右侧加一个实心圆点。
+
+![music-theory-22][url-local-22]
+
+- 发现二分音符以下才会使用附点。
+- 上面的附点二分音符是借用了五线谱里面的三拍名称。
+- 复附点：就是在附点基础上又多了一个点，意思就是延长前面一个附点时值的一般。
+- 理论上还有三附点、四附点等依次类推，碰到的情况很少。
+
+上面附点解决了一部分音拍的表示，但还是有一些无法表示，比如四分音符为一拍时的 1.25 拍。这个时候就要用到**延音线**。
+
+![music-theory-23][url-local-23]
+
+- 延音线用来组合无法用常规方式表达的拍数。
+- 延音线连接必须连接相同的音。
+- 延音线可以连接多个音符组合成所需拍，延续的音是不发声。
+- 有的地方可能会出现一条很宽的线，这个也可以，但推荐每两个相邻都单独连接起来。
+- 音质组合法中使用后面再讲。
+
+某个音符跨越小节线的时候会用到延音线，如下图示例。
+
+![music-theory-24][url-local-24]
+
+- 这个示例的第一小节里面，第一个音是 1 ，然后第二个音想要一个 2 的二分音符，但二分音符是两拍，已经超过了小节的拍数，这个时候就分一拍在第一小节，另外一拍分到第二小节，然后用延音线连接起来。
+- 看到上面标注错误的示例，跨越小节的时候，二分音符不能直接使用横线表示延长。这个是借鉴五线谱的形式。
+
+**连线**跟延音线表达形式一样，不同的点有：
+- 歌谱中，某一个字对应几个音的时候，需要用连线将这个几个音连接起来。
+- 连线连接的音，要唱（奏）得连贯。
+- 连线 99% 连接不同的音，1%连接相同的音，连接相同音要总和很多因素判断，极少遇到。一般按照连接不同的音判断是否是连线。
+
+![music-theory-25][url-local-25]
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+### <a name="part8"></a> 休止符
+表示停顿的地方用**休止符**表示，对应数字 0 。类似的也有二分休止符：
+
+![music-theory-26][url-local-26]
+![music-theory-27][url-local-27]
+
+- 由于休止符不用发音，所以全休止符和二分音符可以不用横线，直接用 0 。有的地方也可能用横线，这个不影响。
+
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
 ## <a name="reference"></a> 参考资料
 - https://www.bilibili.com/video/BV14p4y1e7TV?p=3&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361
@@ -299,3 +357,10 @@ C 大调练习好了后，接着可以换调练习。
 [url-local-19]:https://xxholic.github.io/blog/instrument/images/music-theory.19.png
 [url-local-20]:https://xxholic.github.io/blog/instrument/images/music-theory.20.png
 [url-local-21]:https://xxholic.github.io/blog/instrument/images/music-theory.21.png
+[url-local-22]:https://xxholic.github.io/blog/instrument/images/music-theory.22.png
+[url-local-23]:https://xxholic.github.io/blog/instrument/images/music-theory.23.png
+[url-local-24]:https://xxholic.github.io/blog/instrument/images/music-theory.24.png
+[url-local-25]:https://xxholic.github.io/blog/instrument/images/music-theory.25.png
+[url-local-26]:https://xxholic.github.io/blog/instrument/images/music-theory.26.png
+[url-local-27]:https://xxholic.github.io/blog/instrument/images/music-theory.27.png
+[url-local-28]:https://xxholic.github.io/blog/instrument/images/music-theory.28.png
