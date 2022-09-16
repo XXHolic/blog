@@ -4,7 +4,7 @@ var fs = require("fs");
 var path = require("path");
 
 // 压缩时，填入自己的 key 值
-tinify.key = "LzZkNRr6tDlJ3xDLr6Y7V0bkdyYYBs61";
+tinify.key = "0RvK2mdFMnd8DPvKclSvL6zQQgLGTv2F";
 /**
  * 递归目录及下面的文件，找出目标文件
  * @param {String} dir 文件夹路径

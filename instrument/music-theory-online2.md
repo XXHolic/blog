@@ -1,10 +1,12 @@
-# 乐理-线上版
+# 乐理-线上版2
 ## <a name="index"></a> 目录
 - [拍号类型](#part9)
   - [单拍子/复拍子/混合拍子](#part9-1)
   - [一拍子/散拍子](#part9-2)
   - [变换拍子/交错拍子](#part9-3)
 - [弱起小节](#part10)
+- [情绪和速度](#part11)
+- [打拍子](#part12)
 - [参考资料](#reference)
 
 ## <a name="part9"></a> 拍号类型
@@ -68,6 +70,47 @@
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
+## <a name="part11"></a> 情绪和速度
+速度以每分钟多少拍，表达形式：
+
+![music-theory-37][url-local-37]
+
+- BPM 是 Beats Per Minute 的缩写。
+- 用节拍器练习，不必过于精确到每一拍多少秒。
+
+有些文字的描述，暗示了演奏时的节奏，也有没有具体描述的情况。
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="part12"></a> 打拍子
+
+### V 字打拍法
+V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再上来这个过程，并不一定要打出 V 字形。
+
+配合节拍器注意点：
+- 节拍器响的时候，就要往下打拍子。
+- 节拍器响的时候，念出“哒”字。
+- 节奏熟悉之后，再把“哒”换成唱名，按照音高唱。
+
+下面是[演示视频][url-1]中的几个练习。
+
+![music-theory-38][url-local-38]
+![music-theory-39][url-local-39]
+![music-theory-40][url-local-40]
+
+### 休止符打法
+休止符是没有声音，但还是有拍数的。在打拍子的时候，如果开始不习惯嘴停手不停，可以把休止符的地方念“空”字，熟练了再把念“空”字去掉。
+
+下面是[演示视频][url-2]中的几个练习。
+
+![music-theory-41][url-local-41]
+![music-theory-42][url-local-42]
+![music-theory-43][url-local-43]
+
+
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
 ## <a name="reference"></a> 参考资料
 - https://www.bilibili.com/video/BV14p4y1e7TV?p=3&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361
 - https://www.bilibili.com/video/BV1Xf4y177hE?p=4&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361
@@ -80,3 +123,10 @@
 [url-local-34]:https://xxholic.github.io/blog/instrument/images/music-theory.34.png
 [url-local-35]:https://xxholic.github.io/blog/instrument/images/music-theory.35.png
 [url-local-36]:https://xxholic.github.io/blog/instrument/images/music-theory.36.png
+[url-local-37]:https://xxholic.github.io/blog/instrument/images/music-theory.37.png
+[url-local-38]:https://xxholic.github.io/blog/instrument/images/music-theory.38.png
+[url-local-39]:https://xxholic.github.io/blog/instrument/images/music-theory.39.png
+[url-local-40]:https://xxholic.github.io/blog/instrument/images/music-theory.40.png
+[url-local-41]:https://xxholic.github.io/blog/instrument/images/music-theory.41.png
+[url-local-42]:https://xxholic.github.io/blog/instrument/images/music-theory.42.png
+[url-local-43]:https://xxholic.github.io/blog/instrument/images/music-theory.43.png

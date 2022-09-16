@@ -13,7 +13,7 @@
   - [等音调](#part4-3)
   - [首调和固定调](#part4-4)
   - [原调/移调/转调/离调](#part4-5)
-- [可以做的实践练习1](#part5)
+- [该阶段的实践练习](#part5)
 - [拍号](#part6)
 - [附点/延音线/连线](#part7)
 - [休止符](#part8)
@@ -22,6 +22,8 @@
   - [一拍子/散拍子](#part9-2)
   - [变换拍子/交错拍子](#part9-3)
 - [弱起小节](#part10)
+- [情绪和速度](#part11)
+- [打拍子](#part12)
 - [参考资料](#reference)
 ## <a name="start"></a> 引子
 已经自学电吉他一段时间了，对乐理有了基础的了解，发现需要单独的再次整理确认一些概念。
@@ -214,7 +216,7 @@
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
-## <a name="part5"></a> 可以做的实践练习1
+## <a name="part5"></a> 该阶段的实践练习
 基于上面所学的知识点，不论什么乐器，都可以针对理论只是所做的实践练习。
 
 ### 见到数字马上对应其唱名
@@ -227,6 +229,16 @@
 
 ### 模唱
 检验自己能不能跟着乐器弹出的**音高**，模仿的唱出来。电子琴，模拟 APP 都可以跟着唱或哼出来。
+
+- 记谱音高：记录在乐谱上的音高。
+- 实际音高：实际发出的音高。
+
+乐器和人声由于各自构造特点，并不能真正演奏或唱出乐谱中记录的标准音高。下面是适合一般人的大致范围：
+- 记谱音高：g(小字组) - d<sup>2</sup>（小字二组）
+- 女声实际音高：g(小字组) - d<sup>2</sup>（小字二组）
+- 男声实际音高：G - d<sup>1</sup>（小字一组），比记谱音高低八度。
+
+所以练习的时候，如果发现唱标准的记谱音高很难受，那就低个八度或高个八度尝试一下，或者找专业的人指导一下。
 
 ### 相对音高
 随便给一个音当做 do 开始，能唱出其余的音。
@@ -408,18 +420,54 @@ C 大调练习好了后，接着可以换调练习。
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
-## 速度
+## <a name="part11"></a> 情绪和速度
+速度以每分钟多少拍，表达形式：
+
+![music-theory-37][url-local-37]
+
+- BPM 是 Beats Per Minute 的缩写。
+- 用节拍器练习，不必过于精确到每一拍多少秒。
+
+有些文字的描述，暗示了演奏时的节奏，也有没有具体描述的情况。
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="part12"></a> 打拍子
+
+### V 字打拍法
+V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再上来这个过程，并不一定要打出 V 字形。
+
+配合节拍器注意点：
+- 节拍器响的时候，就要往下打拍子。
+- 节拍器响的时候，念出“哒”字。
+- 节奏熟悉之后，再把“哒”换成唱名，按照音高唱。
+
+下面是[演示视频][url-1]中的几个练习。
+
+![music-theory-38][url-local-38]
+![music-theory-39][url-local-39]
+![music-theory-40][url-local-40]
+
+### 休止符打法
+休止符是没有声音，但还是有拍数的。在打拍子的时候，如果开始不习惯嘴停手不停，可以把休止符的地方念“空”字，熟练了再把念“空”字去掉。
+
+下面是[演示视频][url-2]中的几个练习。
+
+![music-theory-41][url-local-41]
+![music-theory-42][url-local-42]
+![music-theory-43][url-local-43]
 
 
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
 
-
-
 ## <a name="reference"></a> 参考资料
 - https://www.bilibili.com/video/BV14p4y1e7TV?p=3&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361
 - https://www.bilibili.com/video/BV1Xf4y177hE?p=4&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361
+
+[url-1]:https://www.bilibili.com/video/BV14p4y1e7TV?p=61&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-2]:https://www.bilibili.com/video/BV14p4y1e7TV?p=62&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
 
 [url-local-1]:./images/music-theory.01.png
 [url-local-2]:./images/music-theory.02.png
@@ -457,6 +505,13 @@ C 大调练习好了后，接着可以换调练习。
 [url-local-34]:./images/music-theory.34.png
 [url-local-35]:./images/music-theory.35.png
 [url-local-36]:./images/music-theory.36.png
+[url-local-37]:./images/music-theory.37.png
+[url-local-38]:./images/music-theory.38.png
+[url-local-39]:./images/music-theory.39.png
+[url-local-40]:./images/music-theory.40.png
+[url-local-41]:./images/music-theory.41.png
+[url-local-42]:./images/music-theory.42.png
+[url-local-43]:./images/music-theory.43.png
 
 
 隐藏播放器按钮元素： document.querySelector('.bpx-player-state-wrap').style.display  = 'none'
