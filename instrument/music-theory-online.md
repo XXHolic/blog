@@ -280,6 +280,16 @@ C 大调练习好了后，接着可以换调练习。
 - 小节线之间的就是**小节**，上面只是标了几个例子。
 - 小节线目的：1、“均分”每一个小节，让每一个小节的拍数一致；2 预示强弱关系，这个后面再细讲。
 
+这里顺带介绍一下**小节序号**，以下为示例：
+
+![music-theory-29][url-local-29]
+
+- 小节序号最主要的作用是方便查找。
+- 小节序号标在小节线的正上方或稍微偏右
+- 小节序号通常标在换行之后的第一个小节
+- 第一小节不用标
+- 有一些会以五或十小节为单位标记小节序号
+- 很多乐谱没有标记小节序号，需要自己标记
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
@@ -364,3 +374,4 @@ C 大调练习好了后，接着可以换调练习。
 [url-local-26]:https://xxholic.github.io/blog/instrument/images/music-theory.26.png
 [url-local-27]:https://xxholic.github.io/blog/instrument/images/music-theory.27.png
 [url-local-28]:https://xxholic.github.io/blog/instrument/images/music-theory.28.png
+[url-local-29]:https://xxholic.github.io/blog/instrument/images/music-theory.29.png
