@@ -7,6 +7,12 @@
 - [弱起小节](#part10)
 - [情绪和速度](#part11)
 - [打拍子](#part12)
+  - [V 字打拍法](#part12-1)
+  - [休止符打法](#part12-2)
+  - [二八/四十六](#part12-3)
+  - [前八后十六/后八前十六](#part12-4)
+  - [附点/小切分](#part12-5)
+  - [大附点/大切分](#part12-6)
 - [参考资料](#reference)
 
 ## <a name="part9"></a> 拍号类型
@@ -107,6 +113,91 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 ![music-theory-42][url-local-42]
 ![music-theory-43][url-local-43]
 
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+
+### <a name="part12-3"></a> 二八/四十六
+**二八**是两个八分音符，下一个音，上一个音。下面是[练习][url-3]。
+
+![music-theory-44][url-local-44]
+![music-theory-45][url-local-45]
+![music-theory-46][url-local-46]
+
+**四十六**是 4 个十六分音符。下面是[练习][url-4]。
+
+![music-theory-47][url-local-47]
+![music-theory-48][url-local-48]
+![music-theory-49][url-local-49]
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+
+### <a name="part12-4"></a> 前八后十六/后八前十六
+下面是拍子的分解：
+
+![music-theory-53][url-local-53]
+
+示例[练习][url-5]。
+
+![music-theory-50][url-local-50]
+![music-theory-51][url-local-51]
+![music-theory-52][url-local-52]
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+
+### <a name="part12-5"></a> 附点/小切分
+下面是拍子的分解：
+
+![music-theory-54][url-local-54]
+
+示例[练习][url-6]。
+
+![music-theory-55][url-local-55]
+![music-theory-56][url-local-56]
+![music-theory-57][url-local-57]
+
+小切分拍子的分解：
+
+![music-theory-58][url-local-58]
+
+示例[练习][url-7]。
+
+![music-theory-59][url-local-59]
+![music-theory-60][url-local-60]
+![music-theory-61][url-local-61]
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+
+### <a name="part12-6"></a> 大附点/大切分
+上面七个都是一拍的基础类型拍子，这里介绍的都是两拍的拍子。
+
+下面是大附点拍子的分解：
+
+![music-theory-62][url-local-62]
+
+- 上面是常见的两类，变体只能变八分音符的那部分，附点部分不同变。
+
+大附点示例[练习][url-8]。
+
+![music-theory-63][url-local-63]
+![music-theory-64][url-local-64]
+![music-theory-65][url-local-65]
+
+
+下面是大切分拍子的分解：
+
+![music-theory-66][url-local-66]
+
+- 大切分变体中间的四分音符是不能变的。
+
+大切分示例[练习][url-9]。
+
+![music-theory-67][url-local-67]
+![music-theory-68][url-local-68]
+![music-theory-69][url-local-69]
+
 
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
@@ -130,3 +221,29 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 [url-local-41]:https://xxholic.github.io/blog/instrument/images/music-theory.41.png
 [url-local-42]:https://xxholic.github.io/blog/instrument/images/music-theory.42.png
 [url-local-43]:https://xxholic.github.io/blog/instrument/images/music-theory.43.png
+[url-local-44]:https://xxholic.github.io/blog/instrument/images/music-theory.44.png
+[url-local-45]:https://xxholic.github.io/blog/instrument/images/music-theory.45.png
+[url-local-46]:https://xxholic.github.io/blog/instrument/images/music-theory.46.png
+[url-local-47]:https://xxholic.github.io/blog/instrument/images/music-theory.47.png
+[url-local-48]:https://xxholic.github.io/blog/instrument/images/music-theory.48.png
+[url-local-49]:https://xxholic.github.io/blog/instrument/images/music-theory.49.png
+[url-local-50]:https://xxholic.github.io/blog/instrument/images/music-theory.50.png
+[url-local-51]:https://xxholic.github.io/blog/instrument/images/music-theory.51.png
+[url-local-52]:https://xxholic.github.io/blog/instrument/images/music-theory.52.png
+[url-local-53]:https://xxholic.github.io/blog/instrument/images/music-theory.53.png
+[url-local-54]:https://xxholic.github.io/blog/instrument/images/music-theory.54.png
+[url-local-55]:https://xxholic.github.io/blog/instrument/images/music-theory.55.png
+[url-local-56]:https://xxholic.github.io/blog/instrument/images/music-theory.56.png
+[url-local-57]:https://xxholic.github.io/blog/instrument/images/music-theory.57.png
+[url-local-58]:https://xxholic.github.io/blog/instrument/images/music-theory.58.png
+[url-local-59]:https://xxholic.github.io/blog/instrument/images/music-theory.59.png
+[url-local-60]:https://xxholic.github.io/blog/instrument/images/music-theory.60.png
+[url-local-61]:https://xxholic.github.io/blog/instrument/images/music-theory.61.png
+[url-local-62]:https://xxholic.github.io/blog/instrument/images/music-theory.62.png
+[url-local-63]:https://xxholic.github.io/blog/instrument/images/music-theory.63.png
+[url-local-64]:https://xxholic.github.io/blog/instrument/images/music-theory.64.png
+[url-local-65]:https://xxholic.github.io/blog/instrument/images/music-theory.65.png
+[url-local-66]:https://xxholic.github.io/blog/instrument/images/music-theory.66.png
+[url-local-67]:https://xxholic.github.io/blog/instrument/images/music-theory.67.png
+[url-local-68]:https://xxholic.github.io/blog/instrument/images/music-theory.68.png
+[url-local-69]:https://xxholic.github.io/blog/instrument/images/music-theory.69.png
