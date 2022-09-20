@@ -17,6 +17,7 @@
 - [拍号](#part6)
 - [附点/延音线/连线](#part7)
 - [休止符](#part8)
+- [变音记号](#part8b)
 - [拍号类型](#part9)
   - [单拍子/复拍子/混合拍子](#part9-1)
   - [一拍子/散拍子](#part9-2)
@@ -30,6 +31,8 @@
   - [前八后十六/后八前十六](#part12-4)
   - [附点/小切分](#part12-5)
   - [大附点/大切分](#part12-6)
+  - [三连音](#part12-7)
+  - [延音线的节奏型](#part12-8)
 - [参考资料](#reference)
 ## <a name="start"></a> 引子
 已经自学电吉他一段时间了，对乐理有了基础的了解，发现需要单独的再次整理确认一些概念。
@@ -354,13 +357,39 @@ C 大调练习好了后，接着可以换调练习。
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
-### <a name="part8"></a> 休止符
+## <a name="part8"></a> 休止符
 表示停顿的地方用**休止符**表示，对应数字 0 。类似的也有二分休止符：
 
 ![music-theory-26][url-local-26]
 ![music-theory-27][url-local-27]
 
 - 由于休止符不用发音，所以全休止符和二分音符可以不用横线，直接用 0 。有的地方也可能用横线，这个不影响。
+
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="part8b"></a> 变音记号
+还原记号：将带有升降号或重升重降号的音，还原成无升降无重升降的形态。
+
+![music-theory-79][url-local-79]
+
+还原记号与前面学习的升号(#)、降号(b)、重升号(X)、重降号(bb)，可以统称为（临时）**变音记号**。接下来看看变音记号在**简谱**里的规则，简谱一般都是首调记谱方式。
+- 任何一种变音记号，对**同一小节**它出现之后的所有**同一个音**生效。
+- 当**同一小节**的**同一个音**出现新的变音记号时，立马以新的变音记号为准。
+
+![music-theory-80][url-local-80]
+
+- 第一小节中 1 加了升号，第一小节后面的 1 同样生效。
+- 第二小节中 2 加了升号，后面的高音 2 没有生效，因为这两个并不能算是同一个音。
+- 第三小节中第二个 6 加了降号后，在第四个 6 加了升号，这个时候按照上面第二条规则，立马使用新的变音记号为准。第六个 6 同理。
+- 如果一个音在前一个小节结束时并未还原，而新的一小节需要使用还原过后的此音，则建议加上**还原号**以进行提示。例如上面第一小节最后 1 实际音是升 1 ，第二小节开始的 1 应加上还原号。
+
+
+有延音线跨小节的情况如下：
+
+![music-theory-81][url-local-81]
+
+- 延音线只是延长了前面一个音，不能当做新一小节的升降判断。
 
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
@@ -467,6 +496,8 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 
 
 ### <a name="part12-3"></a> 二八/四十六
+这里前提是以四分音符为一拍。
+
 **二八**是两个八分音符，下一个音，上一个音。下面是[练习][url-3]。
 
 ![music-theory-44][url-local-44]
@@ -483,6 +514,8 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 
 
 ### <a name="part12-4"></a> 前八后十六/后八前十六
+这里前提是以四分音符为一拍。
+
 下面是拍子的分解：
 
 ![music-theory-53][url-local-53]
@@ -497,6 +530,8 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 
 
 ### <a name="part12-5"></a> 附点/小切分
+这里前提是以四分音符为一拍。
+
 下面是拍子的分解：
 
 ![music-theory-54][url-local-54]
@@ -521,13 +556,15 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 
 
 ### <a name="part12-6"></a> 大附点/大切分
-上面七个都是一拍的基础类型拍子，这里介绍的都是两拍的拍子。
+这里前提是以四分音符为一拍。
+
+上面七个都是一拍的基础类型拍子，这里介绍的都是**两拍**的拍子。
 
 下面是大附点拍子的分解：
 
 ![music-theory-62][url-local-62]
 
-- 上面是常见的两类，变体只能变八分音符的那部分，附点部分不同变。
+- 上面是常见的两类，变体只能变八分音符的那部分，附点部分不能变。
 
 大附点示例[练习][url-8]。
 
@@ -548,9 +585,55 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 ![music-theory-68][url-local-68]
 ![music-theory-69][url-local-69]
 
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+### <a name="part12-7"></a> 三连音
+先看下面两条规则：
+- 三代二，五六七代四，九到十五代八…………
+- 二四代三，八代六，十六代十二…………
+
+
+下面是三连音总数为一拍的表达：
+
+![music-theory-70][url-local-70]
+
+- 前面学到的几分音符和附点等等可以组合表达大部分拍数，但有些还是无法表达出来，比如 0.33 拍，于是在借用常规的音符，然后给标记提示说明，这个地方不常规。示例中的连线加上 3 就是标记，标明这里的三个八分音符不能按照常规去理解。
+- 再回头看一开始说的规则描述中“三代二”，表示三连音的总排数，是其下方**二个**常规音符的总拍数。这里就是取两个常规八分代表的总排数，就是这个三连音的总拍数，也就是 1 拍。注意这里说的只是总拍数这么计算，实际单个的时候每个音符拍子是 1/3 拍，打拍子要按照这个来。
+- 三连音并不是说下面一定会有三个音符，这里的 3 表示 3 等份，下面的音可以变体进行组合。
+
+此外还有一些要注意：
+- 三连音总排数可能是一拍、二拍、四拍等等。
+- 除三连音，还有二连音、四连音等等。
+
+拍子分解两个方式：
+
+![music-theory-71][url-local-71]
+
+
+示例[练习][url-10]。
+
+![music-theory-72][url-local-72]
+![music-theory-73][url-local-73]
+![music-theory-74][url-local-74]
 
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+### <a name="part12-8"></a> 延音线的节奏型
+看看有无延音线拍子分解的区别：
+
+![music-theory-75][url-local-75]
+
+- 延音线连接的第二个音符是不需要发出哒的声音。
+
+示例[练习][url-11]。
+
+![music-theory-76][url-local-76]
+![music-theory-77][url-local-77]
+![music-theory-78][url-local-78]
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
 
 
 ## <a name="reference"></a> 参考资料
@@ -566,6 +649,8 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 [url-7]:https://www.bilibili.com/video/BV14p4y1e7TV?p=67&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
 [url-8]:https://www.bilibili.com/video/BV14p4y1e7TV?p=69&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
 [url-9]:https://www.bilibili.com/video/BV14p4y1e7TV?p=70&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-10]:https://www.bilibili.com/video/BV14p4y1e7TV?p=71&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-11]:https://www.bilibili.com/video/BV14p4y1e7TV?p=73&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
 
 [url-local-1]:./images/music-theory.01.png
 [url-local-2]:./images/music-theory.02.png
@@ -636,6 +721,18 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 [url-local-67]:./images/music-theory.67.png
 [url-local-68]:./images/music-theory.68.png
 [url-local-69]:./images/music-theory.69.png
+[url-local-70]:./images/music-theory.70.png
+[url-local-71]:./images/music-theory.71.png
+[url-local-72]:./images/music-theory.72.png
+[url-local-73]:./images/music-theory.73.png
+[url-local-74]:./images/music-theory.74.png
+[url-local-75]:./images/music-theory.75.png
+[url-local-76]:./images/music-theory.76.png
+[url-local-77]:./images/music-theory.77.png
+[url-local-78]:./images/music-theory.78.png
+[url-local-79]:./images/music-theory.79.png
+[url-local-80]:./images/music-theory.80.png
+[url-local-81]:./images/music-theory.81.png
 
 
 隐藏播放器按钮元素： document.querySelector('.bpx-player-state-wrap').style.display  = 'none'

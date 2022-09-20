@@ -17,6 +17,7 @@
 - [拍号](#part6)
 - [附点/延音线/连线](#part7)
 - [休止符](#part8)
+- [变音记号](#part8b)
 - [参考资料](#reference)
 ## <a name="start"></a> 引子
 已经自学电吉他一段时间了，对乐理有了基础的了解，发现需要单独的再次整理确认一些概念。
@@ -341,13 +342,39 @@ C 大调练习好了后，接着可以换调练习。
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
-### <a name="part8"></a> 休止符
+## <a name="part8"></a> 休止符
 表示停顿的地方用**休止符**表示，对应数字 0 。类似的也有二分休止符：
 
 ![music-theory-26][url-local-26]
 ![music-theory-27][url-local-27]
 
 - 由于休止符不用发音，所以全休止符和二分音符可以不用横线，直接用 0 。有的地方也可能用横线，这个不影响。
+
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="part8b"></a> 变音记号
+还原记号：将带有升降号或重升重降号的音，还原成无升降无重升降的形态。
+
+![music-theory-79][url-local-79]
+
+还原记号与前面学习的升号(#)、降号(b)、重升号(X)、重降号(bb)，可以统称为（临时）**变音记号**。接下来看看变音记号在**简谱**里的规则，简谱一般都是首调记谱方式。
+- 任何一种变音记号，对**同一小节**它出现之后的所有**同一个音**生效。
+- 当**同一小节**的**同一个音**出现新的变音记号时，立马以新的变音记号为准。
+
+![music-theory-80][url-local-80]
+
+- 第一小节中 1 加了升号，第一小节后面的 1 同样生效。
+- 第二小节中 2 加了升号，后面的高音 2 没有生效，因为这两个并不能算是同一个音。
+- 第三小节中第二个 6 加了降号后，在第四个 6 加了升号，这个时候按照上面第二条规则，立马使用新的变音记号为准。第六个 6 同理。
+- 如果一个音在前一个小节结束时并未还原，而新的一小节需要使用还原过后的此音，则建议加上**还原号**以进行提示。例如上面第一小节最后 1 实际音是升 1 ，第二小节开始的 1 应加上还原号。
+
+
+有延音线跨小节的情况如下：
+
+![music-theory-81][url-local-81]
+
+- 延音线只是延长了前面一个音，不能当做新一小节的升降判断。
 
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
@@ -385,3 +412,6 @@ C 大调练习好了后，接着可以换调练习。
 [url-local-27]:https://xxholic.github.io/blog/instrument/images/music-theory.27.png
 [url-local-28]:https://xxholic.github.io/blog/instrument/images/music-theory.28.png
 [url-local-29]:https://xxholic.github.io/blog/instrument/images/music-theory.29.png
+[url-local-79]:https://xxholic.github.io/blog/instrument/images/music-theory.79.png
+[url-local-80]:https://xxholic.github.io/blog/instrument/images/music-theory.80.png
+[url-local-81]:https://xxholic.github.io/blog/instrument/images/music-theory.81.png

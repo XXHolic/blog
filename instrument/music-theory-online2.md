@@ -13,6 +13,8 @@
   - [前八后十六/后八前十六](#part12-4)
   - [附点/小切分](#part12-5)
   - [大附点/大切分](#part12-6)
+  - [三连音](#part12-7)
+  - [延音线的节奏型](#part12-8)
 - [参考资料](#reference)
 
 ## <a name="part9"></a> 拍号类型
@@ -198,7 +200,52 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 ![music-theory-68][url-local-68]
 ![music-theory-69][url-local-69]
 
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
+### <a name="part12-7"></a> 三连音
+先看下面两条规则：
+- 三代二，五六七代四，九到十五代八…………
+- 二四代三，八代六，十六代十二…………
+
+
+下面是三连音总数为一拍的表达：
+
+![music-theory-70][url-local-70]
+
+- 前面学到的几分音符和附点等等可以组合表达大部分拍数，但有些还是无法表达出来，比如 0.33 拍，于是在借用常规的音符，然后给标记提示说明，这个地方不常规。示例中的连线加上 3 就是标记，标明这里的三个八分音符不能按照常规去理解。
+- 再回头看一开始说的规则描述中“三代二”，表示三连音的总排数，是其下方**二个**常规音符的总拍数。这里就是取两个常规八分代表的总排数，就是这个三连音的总拍数，也就是 1 拍。注意这里说的只是总拍数这么计算，实际单个的时候每个音符拍子是 1/3 拍，打拍子要按照这个来。
+- 三连音并不是说下面一定会有三个音符，这里的 3 表示 3 等份，下面的音可以变体进行组合。
+
+此外还有一些要注意：
+- 三连音总排数可能是一拍、二拍、四拍等等。
+- 除三连音，还有二连音、四连音等等。
+
+拍子分解两个方式：
+
+![music-theory-71][url-local-71]
+
+
+示例[练习][url-10]。
+
+![music-theory-72][url-local-72]
+![music-theory-73][url-local-73]
+![music-theory-74][url-local-74]
+
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+### <a name="part12-8"></a> 延音线的节奏型
+看看有无延音线拍子分解的区别：
+
+![music-theory-75][url-local-75]
+
+- 延音线连接的第二个音符是不需要发出哒的声音。
+
+示例[练习][url-11]。
+
+![music-theory-76][url-local-76]
+![music-theory-77][url-local-77]
+![music-theory-78][url-local-78]
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
@@ -206,6 +253,17 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 - https://www.bilibili.com/video/BV14p4y1e7TV?p=3&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361
 - https://www.bilibili.com/video/BV1Xf4y177hE?p=4&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361
 
+[url-1]:https://www.bilibili.com/video/BV14p4y1e7TV?p=61&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-2]:https://www.bilibili.com/video/BV14p4y1e7TV?p=62&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-3]:https://www.bilibili.com/video/BV14p4y1e7TV?p=63&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-4]:https://www.bilibili.com/video/BV14p4y1e7TV?p=64&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-5]:https://www.bilibili.com/video/BV14p4y1e7TV?p=65&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-6]:https://www.bilibili.com/video/BV14p4y1e7TV?p=66&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-7]:https://www.bilibili.com/video/BV14p4y1e7TV?p=67&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-8]:https://www.bilibili.com/video/BV14p4y1e7TV?p=69&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-9]:https://www.bilibili.com/video/BV14p4y1e7TV?p=70&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-10]:https://www.bilibili.com/video/BV14p4y1e7TV?p=71&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+[url-11]:https://www.bilibili.com/video/BV14p4y1e7TV?p=73&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
 
 [url-local-30]:https://xxholic.github.io/blog/instrument/images/music-theory.30.png
 [url-local-31]:https://xxholic.github.io/blog/instrument/images/music-theory.31.png
@@ -247,3 +305,12 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 [url-local-67]:https://xxholic.github.io/blog/instrument/images/music-theory.67.png
 [url-local-68]:https://xxholic.github.io/blog/instrument/images/music-theory.68.png
 [url-local-69]:https://xxholic.github.io/blog/instrument/images/music-theory.69.png
+[url-local-70]:https://xxholic.github.io/blog/instrument/images/music-theory.70.png
+[url-local-71]:https://xxholic.github.io/blog/instrument/images/music-theory.71.png
+[url-local-72]:https://xxholic.github.io/blog/instrument/images/music-theory.72.png
+[url-local-73]:https://xxholic.github.io/blog/instrument/images/music-theory.73.png
+[url-local-74]:https://xxholic.github.io/blog/instrument/images/music-theory.74.png
+[url-local-75]:https://xxholic.github.io/blog/instrument/images/music-theory.75.png
+[url-local-76]:https://xxholic.github.io/blog/instrument/images/music-theory.76.png
+[url-local-77]:https://xxholic.github.io/blog/instrument/images/music-theory.77.png
+[url-local-78]:https://xxholic.github.io/blog/instrument/images/music-theory.78.png
