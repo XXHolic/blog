@@ -4,7 +4,7 @@
 - [参考资料](#reference)
 
 ## <a name="start"></a> 引子
-简谱相关主要知识学的差不多了，演奏西洋乐器大都还是要用到五线谱，接着学了。
+简谱相关主要知识学的差不多了，演奏西洋乐器大都还是要用到五线谱，只有接着学了。
 
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
