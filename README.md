@@ -2,11 +2,6 @@
 > 夫人之立言，因字而生句，积句而为章，积章而成篇。篇之彪炳，章无疵也；章之明靡，句无玷也；句之清英，字不妄也。振本而末从，知一而万毕矣。
 > -《文心雕龙》刘勰
 
-## 最近更新
-- [A GPU Approach to Particle Physics](https://github.com/XXHolic/blog/issues/107)
-- [随机重置](https://github.com/XXHolic/blog/issues/106)
-- [绘制轨迹](https://github.com/XXHolic/blog/issues/105)
-
 ## 风场可视化
 - [How I built a wind map with WebGL](https://github.com/XXHolic/blog/issues/101)
 - [A GPU Approach to Particle Physics](https://github.com/XXHolic/blog/issues/107)
