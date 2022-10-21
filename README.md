@@ -89,16 +89,6 @@
 - [Learn D3: Further Topics](https://github.com/XXHolic/blog/issues/100)
 
 
-## 书籍
-- [How to read](https://github.com/XXHolic/blog/issues/45)
-- [《ARAKI HIROHIKO NO MANGAJYUTSU》—看漫画的思考](https://github.com/XXHolic/blog/issues/75)
-- [《观看之道》—裸体和裸像](https://github.com/XXHolic/blog/issues/67)
-- [一般智能和大五人格](https://github.com/XXHolic/blog/issues/21)
-- [优雅的说“不”](https://github.com/XXHolic/blog/issues/12)
-- [《黑客和画家》—不能说的话](https://github.com/XXHolic/blog/issues/5)
-- [《简约至上》—什么是简单](https://github.com/XXHolic/blog/issues/2)
-- [《简约至上》思考—为那些用户而设计](https://github.com/XXHolic/blog/issues/1)
-
 
 
 
