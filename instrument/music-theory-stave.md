@@ -11,6 +11,16 @@
   - [八度/十五度记号](#part2-5)
   - [练习方式](#part2-6)
 - [调号](#part3)
+- [拍号](#part4)
+  - [附点](#part4-1)
+  - [延音线/连线](#part4-2)
+  - [休止符](#part4-3)
+  - [变音记号](#part4-4)
+- [情绪和速度](#part5)
+- [打拍子](#part6)
+- [该阶段练习方式](#part7)
+- [标记](#part8)
+- [声部](#part9)
 - [参考资料](#reference)
 
 ## <a name="start"></a> 引子
@@ -169,6 +179,103 @@
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
+## <a name="part4"></a> 拍号
+五线谱中的拍号写在正文里面如下图示例，其它理论跟简谱中介绍的是一样的。
+
+![music-theory-stave-28][url-local-28]
+
+五线谱中的四四拍和二二拍有另外一种特殊的标记形式：
+
+![music-theory-stave-29][url-local-29]
+
+### <a name="part4-1"></a> 附点
+这里只说跟简谱里面的不一样的地方：
+- 附点永远写在**符头的右边**。
+
+![music-theory-stave-30][url-local-30]
+
+### <a name="part4-2"></a> 延音线/连线
+延音线/连线在五线谱中使用跟简谱一样。
+
+![music-theory-stave-31][url-local-31]
+
+### <a name="part4-3"></a> 休止符
+五线谱中休止符表现形式变了：
+
+![music-theory-stave-32][url-local-32]
+
+休止符有两种情况：
+- 休止一个全音符的长度。
+- 休止整个小节，书写时不管什么拍号，都写一个全休止符就可以了，如下图。
+
+![music-theory-stave-33][url-local-33]
+
+### <a name="part4-4"></a> 变音记号
+变音记号知识点跟简谱是一样的，只是在五线谱调号表示方式变了，变音规则多了一点：
+- 任何一种变音记号，对**同一小节**它出现之后的所有**同一个音**生效。
+- 当**同一小节**的**同一个音**出现新的变音记号时，立马以新的变音记号为准。
+- 当**同一小节**的**同一个音**都没有任何临时变音记号，则以调号为准。下面是个例子
+
+![music-theory-stave-40][url-local-40]
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+
+## <a name="part5"></a> 情绪和速度
+简谱中相关理论同样适用五线谱，只是表现形式变化：
+
+![music-theory-stave-34][url-local-34]
+
+在五线谱中八三拍需要注意一下：
+
+![music-theory-stave-35][url-local-35]
+
+- 这里速度表示每分钟 60 个三排集体。
+
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="part6"></a> 打拍子
+打拍子跟简谱里面介绍的一样，只是音符换了个形式。
+
+![music-theory-stave-36][url-local-36]
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="part7"></a> 该阶段练习方式
+简单的说就是硬看，硬练形成类似肌肉记忆。
+- 硬看：对照五线谱把音名念出来，注意不是唱名，如果有升降号也要念出来。
+- 硬练：就是打拍子，如果熟悉了可以结合乐器练习。
+
+这两个单独做好了，再结合起来。
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="part8"></a> 标记
+标记大部分跟简谱中是一样，这里主要列出不一样的地方。
+
+五线谱中**跳音**和**断音**是两个东西：
+
+![music-theory-stave-37][url-local-37]
+
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
+## <a name="part9"></a> 声部
+声部的定义跟简谱是一样的，这里提一些不同的地方。
+
+五线谱中有时纵向上有好几个音符公用了符干：
+
+![music-theory-stave-38][url-local-38]
+
+- 这些音要同时弹奏。
+- 这种相邻同时弹奏的音，低的音写在符干左边，高的音写在符干右边。
+- 纵向上分开的多个音符，注意要能有意识的分开，知道这个是多声部。如下面一个例子。
+
+![music-theory-stave-39][url-local-39]
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
 
 
 ## <a name="reference"></a> 参考资料
@@ -204,3 +311,16 @@
 [url-local-25]:./images/music-theory-stave.025.png
 [url-local-26]:./images/music-theory-stave.026.png
 [url-local-27]:./images/music-theory-stave.027.png
+[url-local-28]:./images/music-theory-stave.028.png
+[url-local-29]:./images/music-theory-stave.029.png
+[url-local-30]:./images/music-theory-stave.030.png
+[url-local-31]:./images/music-theory-stave.031.png
+[url-local-32]:./images/music-theory-stave.032.png
+[url-local-33]:./images/music-theory-stave.033.png
+[url-local-34]:./images/music-theory-stave.034.png
+[url-local-35]:./images/music-theory-stave.035.png
+[url-local-36]:./images/music-theory-stave.036.png
+[url-local-37]:./images/music-theory-stave.037.png
+[url-local-38]:./images/music-theory-stave.038.png
+[url-local-39]:./images/music-theory-stave.039.png
+[url-local-40]:./images/music-theory-stave.040.png
