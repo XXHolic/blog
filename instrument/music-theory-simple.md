@@ -33,6 +33,7 @@
   - [大附点/大切分](#part12-6)
   - [三连音](#part12-7)
   - [延音线的节奏型](#part12-8)
+  - [练习方式](#part12-9)
 - [标记](#part13)
   - [力度记号](#part13-1)
   - [速度记号](#part13-2)
@@ -642,6 +643,11 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
+### <a name="part12-9"></a> 练习方式
+- 每天找不同的乐谱练习至少 20 分钟。
+
+<div align="right"><a href="#index">Back to top :arrow_up:</a></div>
+
 ## <a name="part13"></a> 标记
 集中介绍简谱中出现的常见记号。
 ### <a name="part13-1"></a> 力度记号
@@ -787,8 +793,10 @@ V 字打拍法：在一拍的时间里比划出一个 V ，重点是下去，再
 <div align="right"><a href="#index">Back to top :arrow_up:</a></div>
 
 ## <a name="reference"></a> 参考资料
-- https://www.bilibili.com/video/BV14p4y1e7TV?p=3&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361
-- https://www.bilibili.com/video/BV1Xf4y177hE?p=4&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361
+- [三分钟音乐社](https://www.bilibili.com/video/BV14p4y1e7TV?p=3&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361)
+- [四川音乐学院(国家精品课)](https://www.bilibili.com/video/BV1Xf4y177hE?p=4&share_source=copy_web&vd_source=b79119c0c6dd69f154c4c22d00dd0361)
+- [中央音乐学院公开课](https://www.bilibili.com/video/BV1WE411A7yA?p=2&vd_source=7610a626fef73b8b9d4bb5bc383fd75f)
+- [宋大叔教音乐](https://www.bilibili.com/video/BV1PT4y1o7in/?spm_id_from=333.337.search-card.all.click)
 
 [url-1]:https://www.bilibili.com/video/BV14p4y1e7TV?p=61&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
 [url-2]:https://www.bilibili.com/video/BV14p4y1e7TV?p=62&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
