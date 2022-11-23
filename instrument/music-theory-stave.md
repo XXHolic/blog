@@ -133,7 +133,7 @@
 
 ![music-theory-stave-15][url-local-15]
 
-- 增加 15 度用 15<sup>ma</sup> 表示，降低一个八度用 8<sup>mb</sup> 表示。
+- 增加 15 度用 15<sup>ma</sup> 表示，降低 15 度用 15<sup>mb</sup> 表示。
 - 下面是示例。
 
 ![music-theory-stave-16][url-local-16]
