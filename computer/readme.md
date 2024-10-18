@@ -3,78 +3,90 @@
 
 ## 目前选择
 
+## 装机视频教程
+- https://www.bilibili.com/video/BV1BG4y137mG/?spm_id_from=333.337.search-card.all.click&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+
+- https://www.bilibili.com/video/BV1At411X7Wz/?spm_id_from=333.337.search-card.all.click&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+
+
+安装系统：
+- https://www.bilibili.com/video/BV1DJ411D79y?p=1&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+
+安装驱动：
+- https://www.bilibili.com/video/BV1v7411e7AE/?spm_id_from=333.999.0.0&vd_source=7610a626fef73b8b9d4bb5bc383fd75f
+
 
 ### <a name="cpu"></a> CPU
-R9 5900X，购买[链接][url-buy-1]。
-![main-1][url-loca-1]
+AMD 锐龙 9 7900X 台式处理器
 
-- 基本参数：AM4 插槽、12 核 24 线程、TDP 105 W、内存 DDR4/PCIe 4.0/3200MHz、需要独显。
+- 官方详情：https://www.amd.com/zh-cn/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html
+- 基本参数：CPU 平台-AM5、12 核 24 线程、TDP-170 W、内存 DDD5 、PCIe 4.0、最高内存速度-ddr5-5200
 - 想玩大部分游戏，又想做一般视频剪辑。
-- 价格 2800 左右。
+- 价格 2300 左右。
 
+查伪网址：https://www.amd.com/zh-cn/resources/support-articles/faqs/SN-Lookup.html
 
 ### 主板
-华硕 X570-PLUS (WI-FI)，购买[链接][url-buy-2]。
+华硕 TUF GAMING B650M-PLUS WIFI重炮手
 
-![main-2][url-loca-2]
+- 官方详情：https://www.asus.com.cn/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650m-plus-wifi/
 
-- PCI Express4.0 x16 * 2
-- 版型标准型（atx）大小 30.5cm * 24.4cm、电源接口 24+12
-- 电源接口 24+12
-- 内存 DDR4、3800、4 插槽
-- USB 扩展 3 组、系统风扇插座 3 组
-- HDMI 1、DP 1
-- AMD AM4 插槽
-- 2*M.2 PCIe Gen 4
-- 价格 1650 左右。
+- 内存 DDR5、速度最该7600、4 插槽
+- HDMI 1、DP 1，HDMI2.1-4k60hz，dp1.4-8k60hz
+- PCI Express4.0
+- M.2 存储接口2个
+- 支持无线wifi,蓝牙
+- 尺寸，m-atx、24.4cm*24.4cm
+- 电源接口 24+8+4
+- 风扇：4x4x4，3x4
+- 价格 1342 左右。
+- 查保修状态：https://www.asus.com.cn/support/warranty-status-inquiry/
 
 ### 内存
-宏碁掠夺者-星际迷幻系列，购买[链接][url-buy-3]。
-- DDR4、16g*2、C14、3200MHz
-- 价格 1500 左右
+阿斯加特 32g,支持 amd 和 intel 自动超频技术
+- ddr5，7200
+- 价格 1000
 
 ### 显卡
-七彩虹（Colorful）iGame GeForce RTX 3080 Ultra，购买[链接][url-buy-4]。
+七彩虹（Colorful）4070ti super 战斧豪华版
 
-![main-3][url-loca-3]
+- 电源接口 1*16(12+4)pin 、850w 及以上
+- 长：326.4mm * 149.7mm * 60.2mm
+- 输出：3-dp，1-hdmi2.1
+- 价格 7000 左右。
+- 查伪：https://www.colorful.cn/home/sn
 
-- 电源接口 3*8pin 、750w 及以上
-- 310 * 131.5 * 59mm
-- 3 * DP + 1 * HDMI，显示器接这里。
-- 价格 5800 左右。
+### 硬盘
+致钛
 
-### 散热器
-利民（Thermalright）Frozen Magic 360，购买[链接][url-buy-5]。
+- PCIe4.0 2TB
+- 价格 830 左右
 
-![main-4][url-loca-4]
+### CPU散热器
+利民（Thermalright）Frozen Magic 360
+
+硅脂也用这个牌子的。
 
 - 尺寸 120*120*25mm
 - 看介绍没有导购硅脂，实际买的时候再确认。
 - 价格 550 左右。
 
-### 硬盘
-三星 980Pro 散热片装，购买[链接][url-buy-6]。
+### 机箱散热风扇
+利民TL-C12C
 
-![main-5][url-loca-5]
+- 120 * 120 * 25
 
-- PCIe4.0 1TB
-- 长80mm；宽24mm；高8.6mm
-- 价格 1200 左右
+风扇安装见这里：https://www.bilibili.com/video/BV1Mi4y1M7Mz/?vd_source=7610a626fef73b8b9d4bb5bc383fd75f
 
 ### 电源
-振华 1000W LEADEX G 1000 电源，购买[链接][url-buy-7]。
+经过网上查看：CPU满载235w,显卡270w,内存12w，固态10w，主板30，散热12.
 
-![main-6][url-loca-6]
-
-- 200 * 150 * 86 mm
-- 价格 1200 左右
+振华 1050w。
+- 140 * 150 * 86 mm
+- 价格 850 左右
 
 ### 机箱
-爱国者 YOGO K200黑色防尘机箱，购买[链接][url-buy-8]。
-
-![main-7][url-loca-7]
-
-![main-8][url-loca-8]
+爱国者 YOGO K200黑色防尘机箱。
 
 - 468 * 233 * 493mm
 - 电源 ATX 电源
