@@ -64,19 +64,6 @@
 - [前端异常解析：Source Map](https://github.com/XXHolic/blog/issues/71)
 - [前端异常上报](https://github.com/XXHolic/blog/issues/73)
 
-## 阅读源码
-- [Read TraceKit](https://github.com/XXHolic/blog/issues/69)
-- [Read In Pieces](https://github.com/XXHolic/blog/issues/57)
-- [Read Dva](https://github.com/XXHolic/blog/issues/55)
-- [Read Redux-Saga](https://github.com/XXHolic/blog/issues/54)
-- [Read react-router](https://github.com/XXHolic/blog/issues/51)
-- [Read mini-create-react-context](https://github.com/XXHolic/blog/issues/50)
-- [Read rc-upload](https://github.com/XXHolic/blog/issues/44)
-- [Read history](https://github.com/XXHolic/blog/issues/42)
-- [Read \_\_webpack_require__](https://github.com/XXHolic/blog/issues/41)
-- [Read Lodash ：cloneDeep](https://github.com/XXHolic/blog/issues/40)
-- [Read Redux](https://github.com/XXHolic/blog/issues/37)
-
 ## Learn D3
 - [Learn D3: Introduction](https://github.com/XXHolic/blog/issues/91)
 - [Learn D3: By Example](https://github.com/XXHolic/blog/issues/92)
